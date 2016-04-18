@@ -20,6 +20,7 @@ html {
 body {
 	font-family: 'Roboto', sans-serif;
 	height:100%;
+	color:#787482;
 }
 
 #wrapper {
@@ -39,7 +40,7 @@ body {
 #container {
 	background:#fff;
 	min-height: calc(100% - 350px);
-	color:#000;
+	color:#787482;
 	padding: 100px 0 50px 0;
 	line-height: 1.4em;
 	overflow:hidden;
@@ -173,7 +174,7 @@ clear:none;
 
 a {
 	text-decoration:none;
-	color:#00A5B5;
+	color:#A093BE;
 }
 
 a:hover {
@@ -693,7 +694,7 @@ input[type="submit"]:hover {
 	height:50px;
 	line-height:50px;
 	background:#fff;
-	color:#000;
+	color:#787482;
 	font-size:0.8em;
 	position: relative;
 }
