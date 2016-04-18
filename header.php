@@ -16,7 +16,7 @@
 				<div class="banner-img">
 					<?php if(is_page('home')) { ?>
 					<div class="slider">
-						<?php 
+						<?php
 						$args = array(
 							'post_type' => 'post',
 							'posts_per_page' => '3',
@@ -25,7 +25,7 @@
 						);
 						// the query
 						$the_query = new WP_Query( $args ); ?>
-						
+
 						<?php if ( $the_query->have_posts() ) : ?>
 						<!-- the loop -->
 							<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
@@ -51,7 +51,7 @@
 						<?php else:  ?>
 							  <p>Aucun projet à afficher</p>
 						<?php endif; ?>
-					
+
 				</div>
 				<?php } elseif(is_category()){ ?>
 				<?php if(is_category('beauty')) {
@@ -79,7 +79,7 @@
 						</div>
 					</div>
 				<?php } elseif(is_page()) { ?>
-				<?php echo get_the_post_thumbnail($post->ID); ?>	
+				<?php echo get_the_post_thumbnail($post->ID); ?>
 					<div id="ribbon">
 						<div class="wrap">
 							<h1>
@@ -107,16 +107,6 @@
 			</div>
 			<nav id="menu" role="navigation">
 				<div class="wrap">
-					<section id="branding">
-						<div id="site-title">
-							<a href="/">
-								<div id="logo">
-									<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png">
-								</div>
-								Audrey Lavigne
-							</a>
-						</div>
-					</section>
 					<?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
 					<div class="mobile-menu">
 						<div class="button-wrap">
@@ -128,7 +118,7 @@
 							<?php wp_nav_menu( array( 'theme_location' => 'mobile-menu' ) ); ?>
 						</div>
 					</div>
-					
+
 					<div class="social">
 						<a href="<?php echo get_option('AL_facebook'); ?>">
 							<i class="fa fa-facebook"></i>
