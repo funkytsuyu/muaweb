@@ -12,6 +12,7 @@
 <body <?php body_class(); ?>>
 	<div id="wrapper" class="hfeed">
 		<header id="header" role="banner">
+			<?php /*
 			<div class="banner">
 				<div class="banner-img">
 					<?php if(is_page('home')) { ?>
@@ -105,6 +106,7 @@
 				<?php } ?>
 				</div>
 			</div>
+			*/ ?>
 			<nav id="menu" role="navigation">
 				<div class="wrap">
 					<?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
