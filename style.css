@@ -178,7 +178,7 @@ a {
 }
 
 a:hover {
-	color:#000;
+	color:#726A86;
 }
 
 #container a {
@@ -187,7 +187,7 @@ a:hover {
 }
 
 #container a:hover {
-	color:#000;
+	color:#726A86;
 }
 
 .see-more {
@@ -350,7 +350,7 @@ h3 {
 }
 
 #ribbon h2 a:hover {
-	color:#000;
+	color:#726A86;
 }
 
 .slider {
@@ -534,7 +534,7 @@ nav {
 }
 
 .projects h3 a:hover {
-	color:#000!important;
+	color:#726A86!important;
 }
 
 .project h3 {
@@ -704,7 +704,7 @@ input[type="submit"]:hover {
 }
 
 #footer .social a:hover, #copyright a:hover {
-	color:#fff;
+	color:#726A86;
 }
 
 #footer .social {
