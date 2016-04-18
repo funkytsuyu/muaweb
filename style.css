@@ -402,9 +402,12 @@ nav {
 }
 
 .menu {
-	margin-left: 220px;
 	position: relative;
 	z-index: 100000;
+}
+
+#menu-main-menu li:fist-child a {
+	padding-left:0;
 }
 
 .menu a {
