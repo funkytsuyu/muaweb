@@ -35,6 +35,25 @@
   </div>
   <div class="half right">
     <h2>Wedding packages</h2>
+    <?php
+    $wedpacksarrays = simple_fields_get_post_group_values(get_the_id(), "Wedding packages", true, 1);
+    $wedpacktitles = $wedpacksarrays["Name"];
+    $wedpackprices = $wedpacksarrays["Price"];
+    $wedpackdescs = $wedpacksarrays["Description"];
+    $wedpacknum  = count($wedpacktitles);
+    for($i = 0; $i < $wedpacknum; $i++) {
+      $title = $wedpacktitles[$i];
+      $price = $wedpackprices[$i];
+      $desc = $wedpackdescs[$i];
+    ?>
+    <div class="package">
+      <div class="title">
+        <div class="price"><?php echo $price; ?>$</div>
+    <?php echo $title; ?>
+    </div>
+    <?php echo $desc; ?>
+    </div>
+    <?php } ?>
   </div>
 
 </section>
