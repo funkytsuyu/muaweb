@@ -17,7 +17,7 @@
     $genpacksarrays = simple_fields_get_post_group_values(get_the_id(), "General packages", true, 1);
     $genpacktitles = $genpacksarrays["Name"];
     $genpackprices = $genpacksarrays["Price"];
-    $genpackdescs = $genpacksarrays["Desc"];
+    $genpackdescs = $genpacksarrays["Description"];
     $genpacknum  = count($genpacktitles);
     for($i = 0; $i < $genpacknum; $i++) {
       $title = $genpacktitles[$i];
@@ -26,7 +26,7 @@
     ?>
     <div class="package">
       <div class="title">
-        <div class="price"><?php echo $price; ?></div>
+        <div class="price"><?php echo $price; ?>$</div>
     <?php echo $title; ?>
     </div>
     <?php echo $desc; ?>
