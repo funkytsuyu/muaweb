@@ -13,6 +13,12 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 ///////// CORE ELEMENTS //////////
 -------------------------------- */
 
+* {
+	border-radius: 50%;
+	overflow:hidden;
+	background-color:pink;
+}
+
 html {
 	height:100%;
 }
@@ -202,7 +208,7 @@ a:hover {
 -------------------------------- */
 
 h1 {
-	
+
 }
 
 h2 {
@@ -456,7 +462,7 @@ nav {
 	border-top:1px solid #00A5B5;
 	display:none;
 }
-	
+
 #menu-mobile-menu a {
 	width:100%;
 	text-align:center;
@@ -697,8 +703,8 @@ input[type="submit"]:hover {
 }
 
 #copyright {
-	float:left;	
-} 
+	float:left;
+}
 
 #footer .social a:hover, #copyright a:hover {
 	color:#fff;
@@ -716,11 +722,11 @@ input[type="submit"]:hover {
 	.home .banner {
 		height:400px;
 	}
-	
+
 	.home #ribbon {
 		top:200px;
 	}
-	
+
 	.banner-img img {
 		margin-top:0;
 		width:145%;
@@ -733,7 +739,7 @@ input[type="submit"]:hover {
 	.wrap {
 		padding:0 2em;
 	}
-	
+
 	.banner-img img {
 		margin-top:0;
 		width:160%;
@@ -760,21 +766,21 @@ input[type="submit"]:hover {
 		width:48.40441612652886%;
 		margin-right:1.595635818123074%;
 	}
-	
+
 	.half .half {
 		width:100%;
 		margin-left:0;
 		margin-right:0;
 	}
-	
+
 	.home .banner {
 		height:300px;
 	}
-	
+
 	.home #ribbon {
 		top:150px;
 	}
-	
+
 	.banner-img img {
 		margin-top:0;
 		width:200%;
@@ -789,64 +795,64 @@ input[type="submit"]:hover {
 		margin-right:0;
 		margin-left:0;
 	}
-	
+
 	.half .half {
 		width:48.40441612652886%;
 		margin-right:1.595635818123074%;
 	}
-	
+
 	#logo {
 		display:none;
 	}
-	
+
 	.banner {
 		height:200px;
 	}
-	
+
 	#ribbon {
 		top:60px;
 	}
-	
+
 	#branding {
 		position:static;
 		width: 100%;
 		float: none;
 		text-align:center;
 	}
-	
+
 	.menu {
 		margin-left:0;
 		padding-left:1rem;
 		position:static;
 		border-top:1px solid #00A5B5;
 	}
-	
+
 	#menu .wrap {
 		padding:0;
 	}
-	
+
 	#menu .social {
 		display:none;
 	}
-	
+
 	nav {
 		bottom:-100px;
 		height:100px;
 	}
-	
+
 	#container {
 		padding-top:150px;
 	}
-	
+
 	.mobile-menu {
 		display:block;
 	}
-	
+
 	#menu-main-menu {
 		display:none;
 	}
-	
-		
+
+
 	.home #ribbon {
 		top: 150px;
 	}
@@ -868,38 +874,38 @@ input[type="submit"]:hover {
 		margin-left:0;
 		margin-right:0;
 	}
-	
+
 	#ribbon h1 span {
 		text-align:right;
 	}
-	
+
 	#ribbon h1 {
 		display:block;
 		height: 2.5em;
 	}
-	
+
 	#footer {
 		height: auto;
 		overflow: hidden;
 	}
-	
+
 	#copyright {
 		width: 100%;
 		line-height: 1.3em;
 		padding: 1em 0;
 		text-align:center;
 	}
-	
+
 	#footer .social {
 		width:150px;
 		margin:0 auto;
 		float:none;
 	}
-	
+
 	#footer .social a {
 		width:50px;
 	}
-	
+
 	#ribbon {
 		top:40px;
 	}
@@ -907,7 +913,7 @@ input[type="submit"]:hover {
 	.home .banner {
 		height:200px;
 	}
-	
+
 	.banner-img img {
 		max-width:320%;
 		width:320%;
@@ -915,21 +921,21 @@ input[type="submit"]:hover {
 		left:-75%;
 		margin-top:0;
 	}
-	
+
 	.home #ribbon {
 		top: 80px;
 	}
-	
+
 	#ribbon .wrap {
 		padding:0;
 	}
-	
+
 	.package .title {
 		font-size:1em;
 	}
-	
+
 	.see-more {
 		margin: 1em auto 1em auto;
 	}
-	
+
 }
