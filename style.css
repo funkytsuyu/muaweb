@@ -175,6 +175,10 @@ clear:none;
 a {
 	text-decoration:none;
 	color:#A093BE;
+	-webkit-transition: color 50ms;
+	-moz-transition: color 50ms;
+	-o-transition:color 50ms;
+	transition: color 50ms;
 }
 
 a:hover {
