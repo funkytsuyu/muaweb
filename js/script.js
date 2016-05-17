@@ -52,8 +52,8 @@ jQuery(function($) {
 
 	var $containerCat = $('#masonry-cat');
 	// init
-	$container.imagesLoaded( function() {
-		$container.isotope({
+	$containerCat.imagesLoaded( function() {
+		$containerCat.isotope({
 			// options
 			itemSelector: '.project',
 			layoutMode: 'masonry'
