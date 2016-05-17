@@ -529,6 +529,17 @@ nav {
 /////////// CATEGORIES ////////////
 -------------------------------- */
 
+#masonry-cat {
+
+}
+
+.project.square {
+	width:373.33px;
+	height:373.33px;
+	overflow:hidden;
+	margin: 10px;
+}
+
 .projects h3 a {
 	padding: 0.6em;
 	font-weight:300!important;
