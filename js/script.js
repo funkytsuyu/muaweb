@@ -18,7 +18,7 @@ jQuery(function($) {
 
 	$(window).scroll(function() {
 		if($('html').width() <= '780') {
-			
+
 		} else {
 			if($('body').hasClass( "home" )) {
 				if ($(this).scrollTop() > 620) {
@@ -37,9 +37,9 @@ jQuery(function($) {
 			}
 		}
 	});
-	
+
 	// isotope layout for project pages
-	
+
 	var $container = $('#masonry');
 	// init
 	$container.imagesLoaded( function() {
@@ -49,13 +49,23 @@ jQuery(function($) {
 			layoutMode: 'masonry'
 		});
 	});
-	
+
+	var $containerCat = $('#masonry-cat');
+	// init
+	$container.imagesLoaded( function() {
+		$container.isotope({
+			// options
+			itemSelector: '.project',
+			layoutMode: 'masonry'
+		});
+	});
+
 
 	$('button.mobile-menu-button').funcToggle('click', function() {
 		$('.snipit').animate({
 			height:'354px'
 		}, 200);
-	}, 
+	},
 	function() {
 		$('.snipit').animate({
 			height:'0px'
