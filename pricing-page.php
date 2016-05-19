@@ -14,7 +14,7 @@
   <div class="half">
     <h2>Fashion, beauty and editorial packages</h2>
     <?php
-    $genpacksarrays = simple_fields_get_post_group_values(get_the_id(), "General Services", true, 1);
+    $genpacksarrays = simple_fields_get_post_group_values(get_the_id(), "Regular Services", true, 1);
     $genpacktitles = $genpacksarrays["Name"];
     $genpackprices = $genpacksarrays["Price"];
     $genpackdescs = $genpacksarrays["Description"];
