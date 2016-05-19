@@ -2,7 +2,8 @@
 // template name: pricing page
 
 // data
-
+$general_package_title = simple_fields_value('regular_services_title');
+$wedding_package_title = simple_fields_value('wedding_services_title');
 ?>
 
 <?php get_header(); ?>
@@ -12,7 +13,7 @@
 </header>
 <section class="entry-content">
   <div class="half">
-    <h2>Fashion, beauty and editorial packages</h2>
+    <?php if($general_package_title) { echo '<h2>' . $general_package_title . '</h2>'; } ?>
     <?php
     $genpacksarrays = simple_fields_get_post_group_values(get_the_id(), "Regular Services", true, 1);
     $genpacktitles = $genpacksarrays["Name"];
@@ -34,7 +35,7 @@
     <?php } ?>
   </div>
   <div class="half right">
-    <h2>Wedding packages</h2>
+    <?php if($wedding_package_title) { echo '<h2>' . $wedding_package_title . '</h2>'; } ?>
     <?php
     $wedpacksarrays = simple_fields_get_post_group_values(get_the_id(), "Wedding Services", true, 1);
     $wedpacktitles = $wedpacksarrays["Name"];
