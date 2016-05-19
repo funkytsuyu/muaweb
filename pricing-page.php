@@ -14,7 +14,7 @@
   <div class="half">
     <h2>Fashion, beauty and editorial packages</h2>
     <?php
-    $genpacksarrays = simple_fields_get_post_group_values(get_the_id(), "General packages", true, 1);
+    $genpacksarrays = simple_fields_get_post_group_values(get_the_id(), "General Services", true, 1);
     $genpacktitles = $genpacksarrays["Name"];
     $genpackprices = $genpacksarrays["Price"];
     $genpackdescs = $genpacksarrays["Description"];
@@ -36,7 +36,7 @@
   <div class="half right">
     <h2>Wedding packages</h2>
     <?php
-    $wedpacksarrays = simple_fields_get_post_group_values(get_the_id(), "Wedding packages", true, 1);
+    $wedpacksarrays = simple_fields_get_post_group_values(get_the_id(), "Wedding Services", true, 1);
     $wedpacktitles = $wedpacksarrays["Name"];
     $wedpackprices = $wedpacksarrays["Price"];
     $wedpackdescs = $wedpacksarrays["Description"];
