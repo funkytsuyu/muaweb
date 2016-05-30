@@ -544,11 +544,11 @@ nav {
 	position:absolute;
 	left:0;
 	right:0;
-	padding:0.6em;
+	padding:30px;
 	top:285px;
 	height:285px;
 	box-sizing:border-box;
-	background:#A093BE;
+	background:rgba(160, 147, 190, 0.35);
 }
 
 .project.square:hover .overlay {
@@ -566,10 +566,6 @@ nav {
 	text-align: left;
 	color: #00A5B5!important;
 	min-height: 3.2em;
-}
-
-.projects h3 a:hover {
-	color:#726A86!important;
 }
 
 .project h3 {
