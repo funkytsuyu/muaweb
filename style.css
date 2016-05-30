@@ -545,7 +545,7 @@ nav {
 }
 
 #wdi_feed_0 .wdi_user_img_wrap {
-	display:block!important;
+	display:none!important;
 }
 
 #wdi_feed_0 .wdi_header_user_text h3 {
