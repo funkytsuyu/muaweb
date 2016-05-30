@@ -548,11 +548,11 @@ nav {
 	top:285px;
 	height:285px;
 	box-sizing:border-box;
-	background:rgba(160, 147, 190, 0.35);
-	-webkit-transition: 500ms;
-	-moz-transition: 500ms;
-	-o-transition: 500ms;
-	transition: 500ms;
+	background:rgba(160, 147, 190, 0.6);
+	-webkit-transition: 700ms;
+	-moz-transition: 700ms;
+	-o-transition: 700ms;
+	transition: 700ms;
 }
 
 .project.square:hover .overlay {
