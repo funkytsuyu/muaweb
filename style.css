@@ -532,6 +532,14 @@ nav {
 	color:#888888;
 }
 
+#wdi_feed_0 .wdi_feed_item {
+	line-height:0!important;
+}
+
+#wdi_feed_0 .wdi_photo_wrap_inner {
+	border:10px solid #fff!important;
+}
+
 /* -------------------------------
 /////////// CATEGORIES ////////////
 -------------------------------- */
