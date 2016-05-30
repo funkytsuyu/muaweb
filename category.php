@@ -58,14 +58,13 @@
 				<a href="<?php the_permalink(); ?>">
 				<?php if (class_exists('MultiPostThumbnails')) : MultiPostThumbnails::the_post_thumbnail(get_post_type(), 'secondary-image'); endif; ?>
 				</a>
+				<a href="<?php the_permalink(); ?>">
 				<div class="overlay">
 					<h3>
-						<a href="<?php the_permalink(); ?>">
 							<span><?php the_title(); ?></span>
-						</a>
 					</h3>
-					<a class="see-more" href="<?php the_permalink(); ?>">see more</a>
 				</div>
+				</a>
 			</div>
 		<?php endwhile; endif; ?>
 	</div>
