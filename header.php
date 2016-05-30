@@ -109,6 +109,9 @@
 			*/ ?>
 			<nav id="menu" role="navigation">
 				<div class="wrap">
+					<a href="<?php echo home_url(); ?>" class="home-link">
+						AL
+					</a>
 					<?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
 					<div class="mobile-menu">
 						<div class="button-wrap">
