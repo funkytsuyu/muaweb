@@ -572,13 +572,6 @@ nav {
 	min-height: 3.2em;
 }
 
-.project h3 {
-	padding:0;
-	background:transparent;
-	font-size:1em;
-	margin-top: -8px;
-}
-
 .project {
 	text-align:center;
 }
