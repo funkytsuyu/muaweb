@@ -570,6 +570,8 @@ nav {
 	text-align: left;
 	color: #fff!important;
 	min-height: 3.2em;
+	padding:0;
+	background:transparent;
 }
 
 .project {
