@@ -540,6 +540,23 @@ nav {
 	border:10px solid #fff!important;
 }
 
+#wdi_feed_0 .wdi_photo_wrap {
+	box-sizing:border-box!important;
+}
+
+#wdi_feed_0 .wdi_user_img_wrap {
+	display:block!important;
+}
+
+#wdi_feed_0 .wdi_header_user_text h3 {
+	margin:0 auto
+}
+
+#wdi_feed_0 .wdi_single_user {
+	width:100%;
+	float:none!important;
+}
+
 /* -------------------------------
 /////////// CATEGORIES ////////////
 -------------------------------- */
