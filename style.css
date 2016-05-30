@@ -540,6 +540,17 @@ nav {
 	margin: 10px;
 }
 
+.project.square .overlay {
+	position:absolute;
+	left:0;
+	right:0;
+	top:285px;
+}
+
+.project.square:hover .overlay {
+	top:0;
+}
+
 .projects h3 a {
 	padding: 0.6em;
 	font-weight:300!important;
