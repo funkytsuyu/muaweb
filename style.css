@@ -549,7 +549,7 @@ nav {
 }
 
 #wdi_feed_0 .wdi_header_user_text h3 {
-	margin:0 auto
+	margin:0 auto!important;
 }
 
 #wdi_feed_0 .wdi_single_user {
