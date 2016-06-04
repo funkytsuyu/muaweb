@@ -18,12 +18,14 @@ function oascore_load_scripts()
 	wp_register_script( 'functoggle', get_template_directory_uri() . '/js/jquery.func_toggle.js', 'jquery', null, true );
 	wp_register_script( 'imagesLoaded', get_template_directory_uri() . '/js/imagesloaded.pkgd.min.js', 'jquery', null, true );
 	wp_register_script( 'isotope', get_template_directory_uri() . '/js/isotope.pkgd.min.js', 'jquery', null, true );
+	wp_register_script( 'slick', get_template_directory_uri() . '/js/slick.js', 'jquery', null, true );
 	wp_enqueue_script('jquery');
 	wp_enqueue_script('imagesLoaded');
 	wp_enqueue_script('isotope');
 	wp_enqueue_script('functoggle');
+	wp_enqueue_script('slick');
 	wp_enqueue_script('script');
-	
+
 }
 add_action('comment_form_before', 'oascore_enqueue_comment_reply_script');
 function oascore_enqueue_comment_reply_script()
@@ -60,7 +62,7 @@ function oascore_custom_pings($comment)
 $GLOBALS['comment'] = $comment;
 ?>
 <li <?php comment_class(); ?> id="li-comment-<?php comment_ID(); ?>"><?php echo comment_author_link(); ?></li>
-<?php 
+<?php
 }
 add_filter('get_comments_number', 'oascore_comments_number');
 function oascore_comments_number($count)
@@ -115,22 +117,22 @@ function OAS_meta_projet_callback( $post ) {
 // Saves the custom meta input
 
 function OAS_meta_save_projet( $post_id ) {
- 
+
     // Checks save status
     $is_autosave = wp_is_post_autosave( $post_id );
     $is_revision = wp_is_post_revision( $post_id );
     $is_valid_nonce = ( isset( $_POST[ 'OAS_nonce' ] ) && wp_verify_nonce( $_POST[ 'OAS_nonce' ], basename( __FILE__ ) ) ) ? 'true' : 'false';
- 
+
     // Exits script depending on save status
     if ( $is_autosave || $is_revision || !$is_valid_nonce ) {
         return;
     }
- 
+
     // Checks for input and sanitizes/saves if needed
     if( isset( $_POST[ 'meta-projet-credits' ] ) ) {
         update_post_meta( $post_id, 'meta-projet-credits',  $_POST[ 'meta-projet-credits' ] ) ;
     }
-	
+
 	 // Checks for input and sanitizes/saves if needed
     if( isset( $_POST[ 'meta-projet-desc' ] ) ) {
         update_post_meta( $post_id, 'meta-projet-desc',  $_POST[ 'meta-projet-desc' ] );
@@ -275,7 +277,7 @@ case 'textarea':
 	<div class="rm_form_input">
  		<textarea name="<?php echo $value['id']; ?>" type="<?php echo $value['type']; ?>" cols="" rows=""><?php if ( get_settings( $value['id'] ) != "") { echo stripslashes(get_settings( $value['id']) ); } else { echo $value['std']; } ?></textarea>
  		<small><?php echo $value['desc']; ?></small>
-	</div>	
+	</div>
 	<div class="clearfix"></div>
  </div>
 <?php
@@ -303,7 +305,7 @@ case "checkbox":
 		<?php if(get_option($value['id'])){ $checked = "checked=\"checked\""; }else{ $checked = "";} ?>
 		<input type="checkbox" name="<?php echo $value['id']; ?>" id="<?php echo $value['id']; ?>" value="true" <?php echo $checked; ?> />
 		<small><?php echo $value['desc']; ?></small>
-	</div>	
+	</div>
 	<div class="clearfix"></div>
  </div>
 <?php break;
@@ -375,7 +377,7 @@ $i++;
 		</div>
 	</div>
 <?php
-} 
+}
 ?>
 <?php
 add_action('admin_init', 'mytheme_add_init');
