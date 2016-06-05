@@ -11,7 +11,7 @@
 	$pattern = '/<div(.*)<\/div>/iU';
 	$post_images = preg_grep($pattern, $content_raw);
 	?>
-	<section class="entry-content" id="masonry">
+	<section class="entry-content">
 	<div class="half item project-infos">
 		<?php if(!empty( $meta_project_desc )) {
 		echo '<blockquote>';
