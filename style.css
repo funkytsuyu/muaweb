@@ -743,6 +743,16 @@ nav {
   border-radius: 50%;
 }
 
+.slick-dots li button:focus {
+	outline:0;
+}
+
+.slick-dots li button:hover {
+	background: #A093BE;
+	color: #A093BE;
+}
+
+
 
 
 
