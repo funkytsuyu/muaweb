@@ -570,6 +570,15 @@ body .wdi_feed_main_container {
 	position:static;
 }
 
+body #wdi_feed_0 .wdi_load_more_wrap,
+body #wdi_feed_0 .wdi_spinner_wrap {
+	border:1px solid #7A7684;
+}
+
+body #wdi_feed_0 .wdi_load_more_text {
+	color: #7A7684;
+}
+
 /* -------------------------------
 /////////// CATEGORIES ////////////
 -------------------------------- */
