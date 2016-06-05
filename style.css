@@ -766,6 +766,16 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	pointer-events: auto;
 }
 
+.gallery-arrows .slick-prev {
+	position:absolute;
+	left:20px;
+}
+
+.gallery-arrows .slick-next {
+	position:absolute;
+	right:20px;
+}
+
 .project-gallery {
 	height: 650px;
 	left:0;
