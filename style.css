@@ -854,7 +854,9 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	color: #A093BE;
 }
 
-
+.single .entry-footer {
+	text-align:center;
+}
 
 
 
