@@ -32,6 +32,11 @@ body {
 	position:relative;
 }
 
+#header .wrap {
+	max-width:1200px;
+	margin:0 auto;
+}
+
 #container {
 	background:#fff;
 	min-height: calc(100% - 350px);
@@ -726,7 +731,8 @@ nav {
 	outline:0;
 }
 
-.entry-content {
+.entry-content,
+.entry-footer {
 	max-width:1200px;
 	margin:0 auto;
 }
@@ -965,8 +971,6 @@ input[type="submit"]:hover {
 
 	#menu .wrap {
 		padding:0;
-		max-width:1200px;
-		margin:0 auto;
 	}
 
 	#menu .social {
