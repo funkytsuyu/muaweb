@@ -552,7 +552,7 @@ nav {
 	display:none!important;
 }
 
-#wdi_feed_0 .wdi_header_user_text h3 {
+body #wdi_feed_0 .wdi_header_user_text h3 {
 	margin:0 auto!important;
 	width:100%;
 	text-align:center;
