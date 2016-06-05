@@ -720,6 +720,22 @@ nav {
 	margin:0 auto;
 }
 
+.slick-dots {
+	text-align:center;
+}
+
+.slick-dots li {
+	display:inline-block;
+}
+
+.slick-dots li button {
+	opacity:0;
+}
+
+.slick-dots li button:after {
+	content:'o';
+}
+
 
 /* -------------------------------
 ///////////// FORMS //////////////
