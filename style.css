@@ -773,8 +773,8 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	outline:0;
 }
 
-.entry-content,
-.entry-footer {
+.single .entry-content,
+.single .entry-footer {
 	max-width:800px;
 	margin:0 auto;
 }
