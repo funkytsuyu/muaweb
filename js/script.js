@@ -45,7 +45,7 @@ jQuery(function($) {
 	  infinite: false,
 	  slidesToShow: 3,
 	  slidesToScroll: 3,
-		variableWidth: true
+		variableWidth: true,
 	});
 
 	// isotope layout for project pages
