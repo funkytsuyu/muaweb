@@ -70,7 +70,7 @@ jQuery(function($) {
 			itemSelector: '.project',
 			layoutMode: 'masonry'
 		});
-		$('#content').animate({opacity: 1}, 500);
+		$('#content').animate({opacity: 1}, 700);
 	});
 
 

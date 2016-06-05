@@ -833,6 +833,11 @@ input[type="submit"]:hover {
 	position: relative;
 }
 
+#footer .wrap {
+	max-width: 1200px;
+	margin:0 auto;
+}
+
 #copyright {
 	float:left;
 }
@@ -960,6 +965,8 @@ input[type="submit"]:hover {
 
 	#menu .wrap {
 		padding:0;
+		max-width:1200px;
+		margin:0 auto;
 	}
 
 	#menu .social {
