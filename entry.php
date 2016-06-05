@@ -12,7 +12,7 @@
 	$post_images = preg_grep($pattern, $content_raw);
 	?>
 	<section class="entry-content">
-	<div class="half item project-infos">
+	<div class="project-infos">
 		<?php if(!empty( $meta_project_desc )) {
 		echo '<blockquote>';
 			echo $meta_project_desc;};
