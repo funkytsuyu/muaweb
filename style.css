@@ -753,7 +753,7 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	position:relative;
 }
 
-.gallery-arrow {
+.gallery-arrows {
 	position:absolute;
 	left:0;
 	right:0;
@@ -762,7 +762,7 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	pointer-events: none;
 }
 
-.gallery-arrow button {
+.gallery-arrows button {
 	pointer-events: auto;
 }
 
