@@ -40,7 +40,7 @@ jQuery(function($) {
 
 	// slick js
 
-	$('.gallery').slick({
+	$('.project-gallery').slick({
 		dots: true,
 	  infinite: false,
 	  slidesToShow: 3,
