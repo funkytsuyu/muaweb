@@ -11,15 +11,14 @@
 	$pattern = '/<div(.*)<\/div>/iU';
 	$post_images = preg_grep($pattern, $content_raw);
 	?>
-	<section class="entry-content">
-		<div clas="full">
-			<div class="project-gallery">
-				<?php echo $content_raw; ?>
-			</div>
-			<div class="gallery-dots">
-			</div>
+	<div class="full">
+		<div class="project-gallery">
+			<?php echo $content_raw; ?>
 		</div>
-
+		<div class="gallery-dots">
+		</div>
+	</div>
+	<section class="entry-content">
 	<div class="project-infos">
 		<?php if(!empty( $meta_project_desc )) {
 		echo '<blockquote>';
