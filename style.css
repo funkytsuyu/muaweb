@@ -554,6 +554,8 @@ nav {
 
 #wdi_feed_0 .wdi_header_user_text h3 {
 	margin:0 auto!important;
+	width:100%;
+	text-align:center;
 }
 
 #wdi_feed_0 .wdi_single_user {
@@ -561,7 +563,7 @@ nav {
 	float:none!important;
 }
 
-.wdi_feed_main_container {
+body .wdi_feed_main_container {
 	position:static;
 }
 
