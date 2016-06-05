@@ -17,6 +17,7 @@
 		</div>
 		<div class="gallery-dots">
 		</div>
+		<div class="gallery-arrows"></div>
 	</div>
 	<section class="entry-content">
 	<div class="project-infos">

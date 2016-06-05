@@ -48,7 +48,8 @@ jQuery(function($) {
 	  slidesToScroll: 1,
 		variableWidth: true,
 		draggable: true,
-		appendDots: '.gallery-dots'
+		appendDots: '.gallery-dots',
+		appendArrows: '.gallery-arrows'
 	});
 
 	// isotope layout for project pages
