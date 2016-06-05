@@ -43,10 +43,11 @@ jQuery(function($) {
 	$('.project-gallery').slick({
 		dots: true,
 	  infinite: false,
-	  slidesToShow: 2,
+	  slidesToShow: 3,
 	  slidesToScroll: 1,
 		variableWidth: true,
-		draggable: true
+		draggable: true,
+		appendDots: '.gallery-dots'
 	});
 
 	// isotope layout for project pages

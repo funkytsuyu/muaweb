@@ -16,6 +16,8 @@
 			<div class="project-gallery">
 				<?php echo $content_raw; ?>
 			</div>
+			<div class="gallery-dots">
+			</div>
 		</div>
 
 	<div class="project-infos">
