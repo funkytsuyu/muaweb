@@ -64,6 +64,11 @@ strong {
 	font-weight:bold;
 }
 
+.page .wrap {
+	max-width:1200px;
+	margin:0 auto;
+}
+
 /* -------------------------------
 ///////// HELPER CLASSES //////////
 -------------------------------- */
