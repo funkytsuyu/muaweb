@@ -774,6 +774,10 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	background:#fff;
 }
 
+.gallery-arrows button:focus {
+	outline:0;
+}
+
 .gallery-arrows .slick-prev {
 	position:absolute;
 	left:20px;
