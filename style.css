@@ -556,10 +556,13 @@ nav {
 	margin:0 auto!important;
 	width:100%;
 	text-align:center;
+	color:#7A7684;
+	font-size:26px;
 }
 
 #wdi_feed_0 .wdi_single_user {
 	width:100%;
+	margin-bottom:10px;
 	float:none!important;
 }
 
