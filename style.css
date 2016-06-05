@@ -715,9 +715,11 @@ nav {
 .project-gallery .slick-slide {
     float: left;
     width: auto;
+		height:100%;
     cursor: pointer;
     margin-left: 20px;
 }
+
 
 /* -------------------------------
 ///////////// FORMS //////////////
