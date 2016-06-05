@@ -38,6 +38,15 @@ jQuery(function($) {
 		}
 	});
 
+	// slick js
+
+	$('.gallery').slick({
+		dots: true,
+	  infinite: false,
+	  slidesToShow: 3,
+	  slidesToScroll: 3
+	});
+
 	// isotope layout for project pages
 
 	var $container = $('#masonry');

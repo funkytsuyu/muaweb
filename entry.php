@@ -3,7 +3,7 @@
 		<section class="entry-content">
 			<?php the_content(); ?>
 		</section>
-	<?php } else { 
+	<?php } else {
 	// data
 	$meta_project_desc = get_post_meta( $post->ID, 'meta-projet-desc', true );
 	$meta_projet_credits = get_post_meta( $post->ID, 'meta-projet-credits', true );
@@ -13,13 +13,13 @@
 	?>
 	<section class="entry-content" id="masonry">
 	<div class="half item project-infos">
-		<?php if(!empty( $meta_project_desc )) { 
+		<?php if(!empty( $meta_project_desc )) {
 		echo '<blockquote>';
-			echo $meta_project_desc;}; 
+			echo $meta_project_desc;};
 		echo '</blockquote>';
 		?>
-			<?php 
-			 if(!empty( $meta_projet_credits )) { 
+			<?php
+			 if(!empty( $meta_projet_credits )) {
 				echo '<span class="project-credits">';
 				 if(!empty( $meta_project_desc )) {
 					 echo '<h2>The Credits</h2>';
@@ -31,13 +31,16 @@
 						foreach( $credits as $credit ):
 							list($task, $person) = explode(";", $credit);
 							echo '<li><span class="task">' . $task . '</span><span class="person">' . $person . '</span></li>';
-						endforeach; 
+						endforeach;
 					echo '</ul>';
 				echo '</span>';
-				} 
+				}
 			?>
 		</div>
-		<?php echo $content_raw; ?>
+		<div class="gallery">
+			<?php echo $content_raw; ?>
+		</div>
+
 		</section>
 	<?php } ?>
 
