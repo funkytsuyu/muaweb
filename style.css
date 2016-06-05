@@ -698,6 +698,23 @@ nav {
 }
 
 /* -------------------------------
+//////////// PROJECTS ////////////
+-------------------------------- */
+
+.gallery {
+	height: 500px;
+  overflow: hidden;
+  padding-top: 40px;
+}
+
+.gallery .item {
+    float: left;
+    width: auto;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+/* -------------------------------
 ///////////// FORMS //////////////
 -------------------------------- */
 
