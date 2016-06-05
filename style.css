@@ -703,6 +703,8 @@ nav {
 
 .project-gallery {
 	height: 500px;
+	left:0;
+	position:relative;
   overflow: hidden;
   padding-top: 40px;
 	padding-left:0;
