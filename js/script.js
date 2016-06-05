@@ -43,8 +43,8 @@ jQuery(function($) {
 	$('.project-gallery').slick({
 		dots: true,
 	  infinite: false,
-	  slidesToShow: 3,
-	  slidesToScroll: 3,
+	  slidesToShow: 2,
+	  slidesToScroll: 1,
 		variableWidth: true,
 		draggable: true
 	});
