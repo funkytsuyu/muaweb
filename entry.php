@@ -11,7 +11,7 @@
 	$pattern = '/<div(.*)<\/div>/iU';
 	$post_images = preg_grep($pattern, $content_raw);
 	?>
-	<div class="full">
+	<div class="full gallery-container">
 		<div class="project-gallery">
 			<?php echo $content_raw; ?>
 		</div>

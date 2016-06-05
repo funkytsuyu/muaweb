@@ -749,6 +749,23 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 //////////// PROJECTS ////////////
 -------------------------------- */
 
+.gallery-container {
+	position:relative;
+}
+
+.gallery-arrow {
+	position:absolute;
+	left:0;
+	right:0;
+	width:100%;
+	top:325px;
+	pointer-events: none;
+}
+
+.gallery-arrow button {
+	pointer-events: auto;
+}
+
 .project-gallery {
 	height: 650px;
 	left:0;
