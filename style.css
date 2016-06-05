@@ -772,6 +772,8 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	width:60px;
 	height:60px;
 	background:#fff;
+	border-radius:50%;
+	border:0;
 }
 
 .gallery-arrows button:focus {
