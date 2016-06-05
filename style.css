@@ -661,8 +661,13 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	border:0;
 }
 
+.project-credits a {
+	display:block;
+}
+
 .credits-list {
 	text-align:center;
+	color:transparent;
 }
 
 .credits-list li {
