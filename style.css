@@ -656,6 +656,19 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	display:block;
 }
 
+.project-credits .h2 {
+	text-align:center;
+	border:0;
+}
+
+.credits-list {
+	text-align:center;
+}
+
+.credits-list li {
+	margin-bottom:10px;
+}
+
 .project-info {
 	min-height:200px;
 }
