@@ -715,6 +715,11 @@ nav {
     margin-left: 20px;
 }
 
+.entry-content {
+	max-width:1200px;
+	margin:0 auto;
+}
+
 
 /* -------------------------------
 ///////////// FORMS //////////////
