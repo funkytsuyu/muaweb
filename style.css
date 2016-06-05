@@ -712,7 +712,7 @@ nav {
 	float:none;
 }
 
-.project-gallery .item {
+.project-gallery .slick-slide {
     float: left;
     width: auto;
     cursor: pointer;
