@@ -701,13 +701,17 @@ nav {
 //////////// PROJECTS ////////////
 -------------------------------- */
 
-.gallery {
+.project-gallery {
 	height: 500px;
   overflow: hidden;
   padding-top: 40px;
+	padding-left:0;
+	padding-right:0;
+	margin:0;
+	float:none;
 }
 
-.gallery .item {
+.project-gallery .item {
     float: left;
     width: auto;
     cursor: pointer;

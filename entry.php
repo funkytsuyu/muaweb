@@ -37,7 +37,7 @@
 				}
 			?>
 		</div>
-		<div class="gallery full">
+		<div class="project-gallery">
 			<?php echo $content_raw; ?>
 		</div>
 
