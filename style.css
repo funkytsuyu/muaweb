@@ -668,6 +668,11 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 .credits-list {
 	text-align:center;
 	color:transparent;
+	line-height:1em;
+}
+
+.credits-list .task {
+	color:#787482;
 }
 
 .credits-list li {
