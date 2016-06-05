@@ -728,13 +728,21 @@ nav {
 	display:inline-block;
 }
 
-.slick-dots li button {
-	opacity:0;
+.slick-dots .slick-active button {
+	background: #A093BE;
+	color: #A093BE;
 }
 
-.slick-dots li button:after {
-	content:'o';
+.slick-dots li button {
+	margin: 5px;
+  padding: 0;
+  border: 0;
+  background: #84808D;
+	color: #84808D;
+  border-radius: 50%;
 }
+
+
 
 
 /* -------------------------------
