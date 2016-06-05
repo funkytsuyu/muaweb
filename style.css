@@ -735,10 +735,11 @@ nav {
 
 .slick-dots li button {
 	margin: 5px;
+	width:13px;
   padding: 0;
   border: 0;
-  background: #84808D;
-	color: #84808D;
+  background: #CACACA;
+	color: #CACACA;
   border-radius: 50%;
 }
 
