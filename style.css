@@ -722,6 +722,7 @@ nav {
 
 .slick-dots {
 	text-align:center;
+	margin:20px 0;
 }
 
 .slick-dots li {
@@ -741,6 +742,7 @@ nav {
   background: #CACACA;
 	color: #CACACA;
   border-radius: 50%;
+	cursor:pointer;
 }
 
 .slick-dots li button:focus {
