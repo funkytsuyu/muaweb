@@ -16,7 +16,7 @@ $photourl = wp_get_attachment_url($photo);
 </header>
 <section class="entry-content">
   <div class="bio">
-    <div class="half"><img src="<?php echo $photo; ?>"></div>
+    <div class="half"><img src="<?php echo $photourl; ?>"></div>
     <div class="half"><?php echo $bio; ?></div>
   </div>
   <div class="half">
