@@ -15,10 +15,12 @@ $photourl = wp_get_attachment_url($photo);
 <header class="header">
 </header>
 <section class="entry-content">
+
   <div class="bio">
     <div class="half"><img src="<?php echo $photourl; ?>"></div>
     <div class="half"><?php echo $bio; ?></div>
   </div>
+
   <div class="publications">
     <?php if($publication_title) { echo '<h2>' . $publication_title . '</h2>'; } ?>
     <?php
@@ -44,31 +46,21 @@ $photourl = wp_get_attachment_url($photo);
     <?php } ?>
   </div>
 
-  <div class="half">
-
-  </div>
-  <div class="half right">
-    <?php if($wedding_package_title) { echo '<h2>' . $wedding_package_title . '</h2>'; } ?>
+  <div class="collabs">
+    <?php if($collab_title) { echo '<h2>' . $collab_title . '</h2>'; } ?>
     <?php
-    $wedpacksarrays = simple_fields_get_post_group_values(get_the_id(), "Wedding Services", true, 1);
-    $wedpacktitles = $wedpacksarrays["Name"];
-    $wedpackprices = $wedpacksarrays["Price"];
-    $wedpackdescs = $wedpacksarrays["Description"];
-    $wedpacknum  = count($wedpacktitles);
-    for($i = 0; $i < $wedpacknum; $i++) {
-      $title = $wedpacktitles[$i];
-      $price = $wedpackprices[$i];
-      $desc = $wedpackdescs[$i];
+    $collabarrays = simple_fields_get_post_group_values(get_the_id(), "Collaborations", true, 1);
+    $collabnames = $collabarrays["Nom du collaborateur"];
+    $collabnum  = count($collabnames);
+    for($i = 0; $i < $collabnum; $i++) {
+      $name = $collabnames[$i];
     ?>
-    <div class="package">
-      <div class="title">
-        <div class="price"><?php echo $price; ?>$</div>
-    <?php echo $title; ?>
-    </div>
-    <?php echo $desc; ?>
+    <div class="collab sixth">
+        <?php if($name) { echo '<div class="name">' . $name . '</div>'; } ?>
     </div>
     <?php } ?>
   </div>
+
 
 </section>
 </article>
