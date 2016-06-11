@@ -24,8 +24,8 @@ $photourl = wp_get_attachment_url($photo);
     <?php
     $pubarrays = simple_fields_get_post_group_values(get_the_id(), "publications", true, 1);
     $pubtitles = $pubarrays["Nom de la publication"];
-    $publinks = $pubarrays["Price"];
-    $pubimgs = $pubarrays["Description"];
+    $publinks = $pubarrays["Lien de la publication"];
+    $pubimgs = $pubarrays["Image de la publication"];
     $pubnum  = count($pubtitles);
     for($i = 0; $i < $pubnum; $i++) {
       $title = $pubtitles[$i];
