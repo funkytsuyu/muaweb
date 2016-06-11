@@ -5,7 +5,8 @@
 $bio = simple_fields_value('bio');
 $publication_title = simple_fields_value('pub_title');
 $collab_title = simple_fields_value('collab_title');
-$photo = wp_get_attachement_url(simple_fields_value('about_photo'));
+$photo = simple_fields_value('about_photo');
+$photourl = wp_get_attachment_url($photo);
 ?>
 
 <?php get_header(); ?>
