@@ -30,7 +30,7 @@ $photourl = wp_get_attachment_url($photo);
     for($i = 0; $i < $pubnum; $i++) {
       $title = $pubtitles[$i];
       $link = $publinks[$i];
-      $img = $pubimgs[$i]);
+      $img = $pubimgs[$i];
       $imgurl = wp_get_attachment_url($img);
     ?>
     <div class="publication sixth">
