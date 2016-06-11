@@ -30,13 +30,14 @@ $photourl = wp_get_attachment_url($photo);
     for($i = 0; $i < $pubnum; $i++) {
       $title = $pubtitles[$i];
       $link = $publinks[$i];
-      $img = wp_get_attachment_url($pubimgs[$i]);
+      $img = $pubimgs[$i]);
+      $imgurl = wp_get_attachment_url($img);
     ?>
     <div class="publication sixth">
       <?php if($link) { echo '<a href="' . $link . '">'; } ?>
         <?php if($title) { echo '<div class="title">' . $title . '</div>'; } ?>
         <div class="img">
-          <?php echo '<img src="' . $img . '">'; ?>
+          <?php echo '<img src="' . $imgurl . '">'; ?>
         </div>
       <?php if($link) { echo '</a>'; } ?>
     </div>
