@@ -22,7 +22,7 @@ $photourl = wp_get_attachment_url($photo);
   <div class="publications">
     <?php if($publication_title) { echo '<h2>' . $publication_title . '</h2>'; } ?>
     <?php
-    $pubarrays = simple_fields_get_post_group_values(get_the_id(), "Regular Services", true, 1);
+    $pubarrays = simple_fields_get_post_group_values(get_the_id(), "publications", true, 1);
     $pubtitles = $pubarrays["Nom de la publication"];
     $publinks = $pubarrays["Price"];
     $pubimgs = $pubarrays["Description"];
