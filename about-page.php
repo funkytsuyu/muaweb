@@ -19,27 +19,32 @@ $photourl = wp_get_attachment_url($photo);
     <div class="half"><img src="<?php echo $photourl; ?>"></div>
     <div class="half"><?php echo $bio; ?></div>
   </div>
-  <div class="half">
-    <?php if($general_package_title) { echo '<h2>' . $general_package_title . '</h2>'; } ?>
+  <div class="publications">
+    <?php if($publication_title) { echo '<h2>' . $publication_title . '</h2>'; } ?>
     <?php
-    $genpacksarrays = simple_fields_get_post_group_values(get_the_id(), "Regular Services", true, 1);
-    $genpacktitles = $genpacksarrays["Name"];
-    $genpackprices = $genpacksarrays["Price"];
-    $genpackdescs = $genpacksarrays["Description"];
-    $genpacknum  = count($genpacktitles);
-    for($i = 0; $i < $genpacknum; $i++) {
-      $title = $genpacktitles[$i];
-      $price = $genpackprices[$i];
-      $desc = $genpackdescs[$i];
+    $pubarrays = simple_fields_get_post_group_values(get_the_id(), "Regular Services", true, 1);
+    $pubtitles = $pubarrays["Nom de la publication"];
+    $publinks = $pubarrays["Price"];
+    $pubimgs = $pubarrays["Description"];
+    $pubnum  = count($pubtitles);
+    for($i = 0; $i < $pubnum; $i++) {
+      $title = $pubtitles[$i];
+      $link = $publinks[$i];
+      $img = wp_get_attachment_url($pubimgs[$i]);
     ?>
-    <div class="package">
-      <div class="title">
-        <div class="price"><?php echo $price; ?>$</div>
-    <?php echo $title; ?>
-    </div>
-    <?php echo $desc; ?>
+    <div class="publication sixth">
+      <?php if($link) { echo '<a href="' . $link . '">'; } ?>
+        <?php if($title) { echo '<div class="title">' . $title . '</div>'; } ?>
+        <div class="img">
+          <?php echo '<img src="' . $img . '">'; ?>
+        </div>
+      <?php if($link) { echo '</a>'; } ?>
     </div>
     <?php } ?>
+  </div>
+
+  <div class="half">
+
   </div>
   <div class="half right">
     <?php if($wedding_package_title) { echo '<h2>' . $wedding_package_title . '</h2>'; } ?>
