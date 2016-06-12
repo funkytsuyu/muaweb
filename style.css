@@ -753,6 +753,14 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 //////////// PROJECTS ////////////
 -------------------------------- */
 
+.single-post #container {
+	padding-top:60px;
+}
+
+.single-post nav {
+	border-bottom:0;
+}
+
 .gallery-container {
 	position:relative;
 }
@@ -774,6 +782,11 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	background:#fff;
 	border-radius:50%;
 	border:0;
+	opacity:0.6;
+}
+
+.gallery-arrows button:hover {
+	opacity:1;
 }
 
 .gallery-arrows button:focus {
