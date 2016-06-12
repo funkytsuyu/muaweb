@@ -132,9 +132,6 @@
 						<a href="<?php echo get_option('AL_instagram'); ?>">
 							<i class="fa fa-instagram"></i>
 						</a>
-						<a href="<?php echo get_option('AL_pinterest'); ?>">
-							<i class="fa fa-pinterest"></i>
-						</a>
 						<a href="<?php echo get_option('AL_linkedin'); ?>">
 							<i class="fa fa-linkedin"></i>
 						</a>
