@@ -18,7 +18,7 @@ $photourl = wp_get_attachment_url($photo);
 
   <div class="bio flex-row">
     <div class="flex-1"><img src="<?php echo $photourl; ?>"></div>
-    <div class="flex-2"><?php echo $bio; ?></div>
+    <div class="flex-2"><div class='padding-left'><?php echo $bio; ?></div></div>
   </div>
 
   <div class="publications">
