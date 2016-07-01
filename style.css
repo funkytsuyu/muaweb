@@ -960,6 +960,11 @@ body #wdi_feed_0 .wdi_load_more_wrap {
   font-weight: 100;
 }
 
+.collab .name a {
+	font-weight: 100;
+	font-size: 1.5em;
+}
+
 /* -------------------------------
 ///////////// FORMS //////////////
 -------------------------------- */
