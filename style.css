@@ -1213,6 +1213,16 @@ input[type="submit"]:hover {
 	#wdi_feed_0 .wdi_load_more {
 		display:none;
 	}
+	blockquote {
+		font-size:1.2em;
+	}
+	.bio {
+		display:block;
+	}
+	.bio .padding-left {
+		padding-left:0;
+		margin-top:20px;
+	}
 	.quarter, .half .half {
 		width:100%;
 		margin-left:0;
