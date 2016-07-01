@@ -955,6 +955,10 @@ body #wdi_feed_0 .wdi_load_more_wrap {
   margin-right: auto;
 }
 
+.publications .slick-slide img  {
+	width:590px;
+}
+
 .bio-title {
 	font-size: 1.5em;
   font-weight: 100;
