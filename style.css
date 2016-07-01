@@ -1264,7 +1264,8 @@ input[type="submit"]:hover {
 		display: block;
 		float: none;
 		padding: 0 30px;
-		line-height: 40px;
+		line-height: 50px;
+		background:#fff;
 	}
 	.menu {
 		padding-left:0;
