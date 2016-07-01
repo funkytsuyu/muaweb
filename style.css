@@ -1207,6 +1207,12 @@ input[type="submit"]:hover {
 }
 
 @media screen and (max-width:480px) {
+	#container {
+		padding-bottom:20px;
+	}
+	#wdi_feed_0 .wdi_load_more {
+		display:none;
+	}
 	.quarter, .half .half {
 		width:100%;
 		margin-left:0;
