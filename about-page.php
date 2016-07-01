@@ -16,9 +16,9 @@ $photourl = wp_get_attachment_url($photo);
 </header>
 <section class="entry-content">
 
-  <div class="bio">
-    <div class="third"><img src="<?php echo $photourl; ?>"></div>
-    <div class="two-third"><?php echo $bio; ?></div>
+  <div class="bio flex-row">
+    <div class="flex-1"><img src="<?php echo $photourl; ?>"></div>
+    <div class="flex-2"><?php echo $bio; ?></div>
   </div>
 
   <div class="publications">
@@ -64,7 +64,7 @@ $photourl = wp_get_attachment_url($photo);
             echo '<a href="' . $link . '">' . $name . '</a>';
           } else {
             echo $name;
-          } 
+          }
           echo '</div>';
         } ?>
     </div>
