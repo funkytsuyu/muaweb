@@ -192,6 +192,9 @@ margin-right:0!important;
   flex: 6;
 }
 
+.padding-left {
+	padding-left:30px;
+}
 
 /*
 #content .quarter:nth-child(4n+1) {
