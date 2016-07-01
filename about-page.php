@@ -37,10 +37,10 @@ $photourl = wp_get_attachment_url($photo);
     ?>
     <div class="publication sixth">
       <?php if($link) { echo '<a href="' . $link . '">'; } ?>
-        <?php if($title) { echo '<div class="title">' . $title . '</div>'; } ?>
         <div class="img">
           <?php echo '<img src="' . $imgurl . '">'; ?>
         </div>
+        <?php if($title) { echo '<div class="title">' . $title . '</div>'; } ?>
       <?php if($link) { echo '</a>'; } ?>
     </div>
     <?php } ?>
