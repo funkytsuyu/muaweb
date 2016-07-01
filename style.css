@@ -1251,7 +1251,11 @@ input[type="submit"]:hover {
 		height:550px;
 	}
 	.publications .slick-slide img {
-		width:330px;
+		width:325px;
+	}
+	.publications .slick-slide .title {
+		max-width:300px;
+		font-size:1.2em;
 	}
 	#ribbon h1 span {
 		text-align:right;
