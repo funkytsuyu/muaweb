@@ -571,11 +571,6 @@ nav {
 
 .button-wrap button:focus {
 	outline:0;
-	background:#000;
-}
-
-.button-wrap button:hover {
-	background:#000;
 }
 
 #menu-mobile-menu a:hover {
