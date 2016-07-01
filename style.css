@@ -1227,12 +1227,23 @@ input[type="submit"]:hover {
 		width:145px;
 		height:145px;
 	}
+	.gallery-arrows {
+		display:none;
+	}
 	.quarter, .half .half {
 		width:100%;
 		margin-left:0;
 		margin-right:0;
 	}
-
+	.single-post #content {
+		padding:0;
+	}
+	.single-post .entry-content {
+		padding:0 30px;
+	}
+	.single-post #footer .wrap {
+		padding: 0 30px;
+	}
 	#ribbon h1 span {
 		text-align:right;
 	}
