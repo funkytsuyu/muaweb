@@ -944,6 +944,14 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	margin-left: 20px;
 }
 
+.publications .slick-slide .title {
+	font-weight: 100;
+	font-size: 1.5em;
+	margin-top: 20px;
+	width: 100%;
+	text-align: center;
+}
+
 /* -------------------------------
 ///////////// FORMS //////////////
 -------------------------------- */
