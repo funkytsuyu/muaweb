@@ -1276,4 +1276,12 @@ input[type="submit"]:hover {
 		margin: 1em auto 1em auto;
 	}
 
+	#wdi_feed_0 .wdi_feed_item {
+		width:50%!important;
+	}
+
+	#wdi_feed_0 .wdi_photo_wrap {
+		width:100%!important;
+	}
+
 }
