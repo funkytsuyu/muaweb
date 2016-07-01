@@ -1244,6 +1244,12 @@ input[type="submit"]:hover {
 	.single-post #footer .wrap {
 		padding: 0 30px;
 	}
+	.project-gallery {
+		height: 550px;
+	}
+	.project-gallery .slick-slide {
+		height:550px;
+	}
 	#ribbon h1 span {
 		text-align:right;
 	}
