@@ -1133,38 +1133,30 @@ input[type="submit"]:hover {
 		margin-right:0;
 		margin-left:0;
 	}
-
 	.half .half {
 		width:48.40441612652886%;
 		margin-right:1.595635818123074%;
 	}
-
 	#logo {
 		display:none;
 	}
-
 	.banner {
 		height:200px;
 	}
-
 	#ribbon {
 		top:60px;
 	}
-
 	#branding {
 		position:static;
 		width: 100%;
 		float: none;
 		text-align:center;
 	}
-
 	.menu {
 		margin-left:0;
 		padding-left:1rem;
 		position:static;
-		border-top:1px solid #00A5B5;
 	}
-
 	#menu .wrap {
 		padding:0;
 	}
