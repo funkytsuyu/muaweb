@@ -1257,6 +1257,12 @@ input[type="submit"]:hover {
 		max-width:300px;
 		font-size:1.2em;
 	}
+	.page-template-about-page h2 {
+		text-align:center;
+	}
+	.collab {
+		text-align:center;
+	}
 	#ribbon h1 span {
 		text-align:right;
 	}
