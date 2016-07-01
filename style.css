@@ -936,7 +936,13 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	text-align:center;
 }
 
+/* -------------------------------
+////////// ABOUT PAGE ////////////
+-------------------------------- */
 
+.publications .slick-slide {
+	margin-left: 20px;
+}
 
 /* -------------------------------
 ///////////// FORMS //////////////
