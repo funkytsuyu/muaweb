@@ -952,6 +952,11 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	text-align: center;
 }
 
+.bio-title {
+	font-size: 1.5em;
+  font-weight: 100;
+}
+
 /* -------------------------------
 ///////////// FORMS //////////////
 -------------------------------- */
