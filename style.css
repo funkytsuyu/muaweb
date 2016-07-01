@@ -1263,6 +1263,16 @@ input[type="submit"]:hover {
 	.collab {
 		text-align:center;
 	}
+	.menu a {
+		font-size: 0.8em;
+		display: block;
+		float: none;
+		padding: 0 30px;
+		line-height: 40px;
+	}
+	.menu {
+		padding-left:0;
+	}
 	#ribbon h1 span {
 		text-align:right;
 	}
