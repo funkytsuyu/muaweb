@@ -950,6 +950,9 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	margin-top: 20px;
 	width: 100%;
 	text-align: center;
+	max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .bio-title {
