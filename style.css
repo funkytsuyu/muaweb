@@ -1226,6 +1226,10 @@ input[type="submit"]:hover {
 	#masonry-cat {
 		margin:0;
 	}
+	.project.square {
+		width:150px;
+		height:150px;
+	}
 	.quarter, .half .half {
 		width:100%;
 		margin-left:0;
