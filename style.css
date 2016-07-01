@@ -958,11 +958,13 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 .bio-title {
 	font-size: 1.5em;
   font-weight: 100;
+	line-height:1.2em;
 }
 
 .collab .name a {
 	font-weight: 100!important;
 	font-size: 1.5em;
+	line-height:1.5em;
 }
 
 /* -------------------------------
