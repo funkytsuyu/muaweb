@@ -17,8 +17,8 @@ $photourl = wp_get_attachment_url($photo);
 <section class="entry-content">
 
   <div class="bio">
-    <div class="half"><img src="<?php echo $photourl; ?>"></div>
-    <div class="half"><?php echo $bio; ?></div>
+    <div class="third"><img src="<?php echo $photourl; ?>"></div>
+    <div class="two-third"><?php echo $bio; ?></div>
   </div>
 
   <div class="publications">
@@ -51,12 +51,22 @@ $photourl = wp_get_attachment_url($photo);
     <?php
     $collabarrays = simple_fields_get_post_group_values(get_the_id(), "Collaborations", true, 1);
     $collabnames = $collabarrays["Nom du collaborateur"];
+    $collablinks = $collabarrays["Lien du collaborateur"];
     $collabnum  = count($collabnames);
     for($i = 0; $i < $collabnum; $i++) {
       $name = $collabnames[$i];
+      $link = $collablinks[$i];
     ?>
     <div class="collab sixth">
-        <?php if($name) { echo '<div class="name">' . $name . '</div>'; } ?>
+        <?php if($name) {
+          echo '<div class="name">';
+          if($link) {
+            echo '<a href="' . $link . '">' . $name . '</a>';
+          } else {
+            echo $name;
+          } 
+          echo '</div>';
+        } ?>
     </div>
     <?php } ?>
   </div>

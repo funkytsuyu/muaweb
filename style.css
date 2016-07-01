@@ -95,7 +95,7 @@ img {
 /////////////////// COLUMN GRID /////////////////////
 -------------------------------------------------- */
 
-.quarter, .half, .full, .three-quarter {
+.quarter, .half, .full, .three-quarter, .third, .two-third {
 float:left;
 margin-bottom:1.595635818123074%;
 }
@@ -112,6 +112,16 @@ margin-right:1.595635818123074%;
 
 .half {
 width:48.40441612652886%;
+margin-right:1.595635818123074%;
+}
+
+.third {
+width:31.73769751521026%;
+margin-right:1.595635818123074%;
+}
+
+.two-third {
+width:65.07103084854359%;
 margin-right:1.595635818123074%;
 }
 
