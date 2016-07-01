@@ -52,6 +52,20 @@ jQuery(function($) {
 		appendArrows: '.gallery-arrows'
 	});
 
+	// slick for about page
+
+	$('.publications').slick({
+		dots: true,
+		centerMode: true,
+	  infinite: true,
+	  slidesToShow: 3,
+	  slidesToScroll: 1,
+		variableWidth: true,
+		draggable: true,
+		appendDots: '.gallery-dots',
+		appendArrows: '.gallery-arrows'
+	});
+
 	// isotope layout for project pages
 
 	var $container = $('#masonry');
