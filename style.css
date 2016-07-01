@@ -564,8 +564,9 @@ nav {
 	border:0;
 	height:50px;
 	width:50px;
-	background: #00A5B5;
-	color:#fff;
+	background: transparent;
+	color:#a093be;
+	margin-left: 20px;
 }
 
 .button-wrap button:focus {

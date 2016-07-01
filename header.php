@@ -120,6 +120,9 @@
 								<i class="fa fa-bars"></i>
 							</button>
 						</div>
+						<a id="logo" href="<?php echo home_url(); ?>" class="home-link">
+						 <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.svg">
+						</a>
 						<div class="snipit">
 							<?php wp_nav_menu( array( 'theme_location' => 'mobile-menu' ) ); ?>
 						</div>
