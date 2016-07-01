@@ -1250,6 +1250,9 @@ input[type="submit"]:hover {
 	.project-gallery .slick-slide {
 		height:550px;
 	}
+	.publications .slick-slide img {
+		width:330px;
+	}
 	#ribbon h1 span {
 		text-align:right;
 	}
