@@ -1225,6 +1225,9 @@ input[type="submit"]:hover {
 		left:50%;
 		margin-left:-30px;
 	}
+	.snipit {
+		padding-top:50px;
+	}
 	.quarter, .half .half {
 		width:100%;
 		margin-left:0;
