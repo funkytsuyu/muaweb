@@ -1267,6 +1267,7 @@ input[type="submit"]:hover {
 		padding: 0 30px;
 		line-height: 50px;
 		background:#fff;
+		text-align:center;
 	}
 	.menu {
 		padding-left:0;
