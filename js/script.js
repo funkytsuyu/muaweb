@@ -56,7 +56,7 @@ jQuery(function($) {
 
 	$('.publications').slick({
 		dots: true,
-		centerMode: true,
+		centerMode: false,
 	  infinite: true,
 	  slidesToShow: 3,
 	  slidesToScroll: 1,
