@@ -560,6 +560,11 @@ nav {
 	text-align:center;
 }
 
+.mobile-menu-button svg line {
+	stroke:#a093be;
+	stroke-width:2px;
+}
+
 .button-wrap button {
 	font-size:1.8em;
 	border:0;
