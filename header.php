@@ -24,9 +24,9 @@
 						<div class="button-wrap">
 							<button class="mobile-menu-button">
 								<svg height="20" width="20">
-									<line x1="12" y1="0" x2="20" y2="0" />
-									<line x1="6" y1="10" x2="20" y2="10" />
-									<line x1="0" y1="20" x2="20" y2="20" />
+									<line x1="12" y1="0" x2="20" y2="0" style="stroke:#a093be;stroke-width:3px;" />
+									<line x1="6" y1="10" x2="20" y2="10" style="stroke:#a093be;stroke-width:3px;" />
+									<line x1="0" y1="20" x2="20" y2="20" style="stroke:#a093be;stroke-width:3px;" />
 								</svg>
 							</button>
 						</div>
