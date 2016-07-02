@@ -45,7 +45,7 @@ jQuery(function($) {
 		centerMode: false,
 	  infinite: false,
 	  slidesToShow: 2,
-	  slidesToScroll: 1,
+	  slidesToScroll: 2,
 		variableWidth: true,
 		draggable: true,
 		appendDots: '.gallery-dots',
