@@ -1225,6 +1225,7 @@ input[type="submit"]:hover {
 		position:absolute;
 		left:50%;
 		margin-left:-30px;
+		z-index:100;
 	}
 	.snipit {
 		padding-top:50px;
