@@ -23,10 +23,10 @@
 					<div class="mobile-menu">
 						<div class="button-wrap">
 							<button class="mobile-menu-button">
-								<svg height="30" width="30">
-									<line x1="10" y1="0" x2="30" y2="0" />
-									<line x1="5" y1="15" x2="30" y2="15" />
-									<line x1="0" y1="30" x2="30" y2="30" />
+								<svg height="20" width="20">
+									<line x1="12" y1="0" x2="20" y2="0" />
+									<line x1="6" y1="10" x2="20" y2="10" />
+									<line x1="0" y1="20" x2="20" y2="20" />
 								</svg>
 							</button>
 						</div>
