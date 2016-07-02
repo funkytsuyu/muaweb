@@ -120,10 +120,12 @@ jQuery(function($) {
 		$('.snipit').animate({
 			height:'354px'
 		}, 200);
+		$('.mobile-menu-button-icon-open').animate({opacity: 1}, 700);
 	},
 	function() {
 		$('.snipit').animate({
 			height:'0px'
 		}, 200);
+		$('.mobile-menu-button-icon-open').animate({opacity: 0}, 700);
 	});
 });

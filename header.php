@@ -23,10 +23,15 @@
 					<div class="mobile-menu">
 						<div class="button-wrap">
 							<button class="mobile-menu-button">
-								<svg height="20" width="20">
-									<line x1="12" y1="2" x2="20" y2="2" style="stroke:#a093be;stroke-width:3px;" />
-									<line x1="6" y1="10" x2="20" y2="10" style="stroke:#a093be;stroke-width:3px;" />
-									<line x1="0" y1="18" x2="20" y2="18" style="stroke:#a093be;stroke-width:3px;" />
+								<svg class="mobile-menu-button-icon" height="20" width="20">
+									<line class="line top-line" x1="12" y1="2" x2="20" y2="2" style="stroke:#a093be;stroke-width:3px;" />
+									<line class="line middle-line" x1="6" y1="10" x2="20" y2="10" style="stroke:#a093be;stroke-width:3px;" />
+									<line class="line bottom-line" x1="0" y1="18" x2="20" y2="18" style="stroke:#a093be;stroke-width:3px;" />
+								</svg>
+								<svg class="mobile-menu-button-icon-open" height="20" width="20">
+									<line class="line top-line" x1="0" y1="2" x2="20" y2="2" style="stroke:#a093be;stroke-width:3px;" />
+									<line class="line middle-line" x1="0" y1="10" x2="20" y2="10" style="stroke:#a093be;stroke-width:3px;" />
+									<line class="line bottom-line" x1="0" y1="18" x2="20" y2="18" style="stroke:#a093be;stroke-width:3px;" />
 								</svg>
 							</button>
 						</div>
