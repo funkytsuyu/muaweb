@@ -49,7 +49,21 @@ jQuery(function($) {
 		variableWidth: true,
 		draggable: true,
 		appendDots: '.gallery-dots',
-		appendArrows: '.gallery-arrows'
+		appendArrows: '.gallery-arrows',
+		initialSlide: 2,
+		responsive: [
+    	{
+				breakpoint: 780,
+				settings: {
+
+				}
+			},
+			{
+				breakpoint: 480,
+				settings: {
+
+				}
+			}
 	});
 
 	// slick for about page
