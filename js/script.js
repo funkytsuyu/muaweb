@@ -64,6 +64,7 @@ jQuery(function($) {
 
 				}
 			}
+		]
 	});
 
 	// slick for about page
