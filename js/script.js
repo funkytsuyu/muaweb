@@ -42,7 +42,7 @@ jQuery(function($) {
 
 	$('.project-gallery').slick({
 		dots: true,
-		centerMode: true,
+		centerMode: false,
 	  infinite: false,
 	  slidesToShow: 3,
 	  slidesToScroll: 3,
