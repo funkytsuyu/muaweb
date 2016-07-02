@@ -50,7 +50,7 @@ jQuery(function($) {
 		draggable: true,
 		appendDots: '.gallery-dots',
 		appendArrows: '.gallery-arrows',
-		initialSlide: 2,
+		initialSlide: 1,
 		responsive: [
     	{
 				breakpoint: 780,
