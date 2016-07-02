@@ -70,7 +70,7 @@ jQuery(function($) {
 	var $projectgallery = $('.project-gallery');
 	$projectgallery.imagesLoaded( function() {
 		$('.project-gallery').animate({opacity: 1}, 700);
-	}
+	});
 
 	// slick for about page
 
