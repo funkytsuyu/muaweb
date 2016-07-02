@@ -3,7 +3,7 @@
 <head <?php do_action( 'add_head_attributes' ); ?>>
 	<meta charset="<?php bloginfo('charset'); ?>" />
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-	<meta name="theme-color" content="#a093be">
+	<meta name="theme-color" content="#dacff5">
 	<title><?php wp_title(' | ', true, 'right'); ?></title>
 	<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>" />
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,300,300italic,700,700italic' rel='stylesheet' type='text/css'>
