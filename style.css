@@ -1229,8 +1229,8 @@ input[type="submit"]:hover {
 		margin-top:20px;
 	}
 	.project.square {
-		width:145px;
-		height:145px;
+		width:calc(50% - 20px);
+		height:auto;
 	}
 	.gallery-arrows {
 		display:none;
