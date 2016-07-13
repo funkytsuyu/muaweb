@@ -833,6 +833,14 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	padding-top:60px;
 }
 
+.single blockquote {
+	text-align:center;
+}
+
+.single .entry-content {
+	clear:both;
+}
+
 .single-post nav {
 	border-bottom:0;
 }
