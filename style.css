@@ -985,6 +985,44 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	width:590px;
 }
 
+.pub-arrows {
+	position:absolute;
+	left:0;
+	right:0;
+	width:100%;
+	top:325px;
+	pointer-events: none;
+}
+
+.pub-arrows button {
+	pointer-events: auto;
+	cursor:pointer;
+	width:60px;
+	height:60px;
+	background:#fff;
+	border-radius:50%;
+	border:0;
+	opacity:0.6;
+}
+
+.pub-arrows button:hover {
+	opacity:1;
+}
+
+.pub-arrows button:focus {
+	outline:0;
+}
+
+.pub-arrows .slick-prev {
+	position:absolute;
+	left:20px;
+}
+
+.pub-arrows .slick-next {
+	position:absolute;
+	right:20px;
+}
+
 .bio-title {
 	font-size: 1.5em;
   font-weight: 100;
