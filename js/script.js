@@ -91,7 +91,7 @@ jQuery(function($) {
 		appendArrows: '.pub-arrows'
 	});
 
-	if($(body).hasClass('page-template-about-page')){
+	if($('body').hasClass('page-template-about-page')){
 		$('.slick-prev').html('<i class="fa fa-angle-left" aria-hidden="true"></i>');
 		$('.slick-next').html('<i class="fa fa-angle-right" aria-hidden="true"></i>');
 	}
