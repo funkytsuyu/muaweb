@@ -90,7 +90,7 @@ jQuery(function($) {
 		variableWidth: true,
 		draggable: true,
 		appendDots: '.gallery-dots',
-		appendArrows: '.gallery-arrows'
+		appendArrows: '.pub-arrows'
 	});
 
 	// isotope layout for project pages
