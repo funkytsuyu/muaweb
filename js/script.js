@@ -34,6 +34,7 @@ jQuery(function($) {
 				breakpoint: 2000,
 				settings: {
 					initialSlide: 1,
+					slidesToShow: 3
 				}
 			},
     	{
