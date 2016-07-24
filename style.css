@@ -985,6 +985,10 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	width:590px;
 }
 
+.publications-container {
+	position:relative;
+}
+
 .pub-arrows {
 	position:absolute;
 	left:0;
