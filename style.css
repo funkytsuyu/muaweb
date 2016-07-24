@@ -913,6 +913,7 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	-moz-transform:none!important;
 	text-align:center;
 	width:100%!important;
+	box-sizing:border-box;
 }
 
 .project-gallery .slick-slide {
