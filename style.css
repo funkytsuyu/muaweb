@@ -632,9 +632,10 @@ nav {
 	display:none!important;
 }
 
-#wdi_feed_0 .wdi_img {
+body #wdi_feed_0 .wdi_img {
 	max-width:none;
 	height:100%;
+	width:auto;
 }
 
 body #wdi_feed_0 .wdi_header_user_text h3 {
