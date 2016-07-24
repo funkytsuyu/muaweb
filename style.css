@@ -1003,10 +1003,12 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	cursor:pointer;
 	width:60px;
 	height:60px;
-	background:#fff;
+	background:transparent;
 	border-radius:50%;
 	border:0;
 	opacity:0.6;
+	font-size:2em;
+	color: #84818d;
 }
 
 .pub-arrows button:hover {
@@ -1019,12 +1021,12 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 
 .pub-arrows .slick-prev {
 	position:absolute;
-	left:20px;
+	left: -60px;
 }
 
 .pub-arrows .slick-next {
 	position:absolute;
-	right:20px;
+	right:-60px;
 }
 
 .bio-title {
