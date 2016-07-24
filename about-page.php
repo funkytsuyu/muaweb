@@ -50,7 +50,6 @@ $photourl = wp_get_attachment_url($photo);
       <div class="pub-arrows"></div>
   </div>
 
-
   <div class="collabs">
     <?php if($collab_title) { echo '<h2>' . $collab_title . '</h2>'; } ?>
     <?php
@@ -74,6 +73,10 @@ $photourl = wp_get_attachment_url($photo);
         } ?>
     </div>
     <?php } ?>
+  </div>
+
+  <div class="insta">
+    <?php the_content(); ?>
   </div>
 
 
