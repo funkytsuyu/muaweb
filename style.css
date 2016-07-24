@@ -905,7 +905,9 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	opacity:0;
 }
 
-.project-gallery.small-slider .slick-track {
+.project-gallery.small-slider .slick-track,
+.project-gallery.small-slider .slick-list
+ {
 	transform:none!important;
 	-webkit-transform:none!important;
 	-moz-transform:none!important;
