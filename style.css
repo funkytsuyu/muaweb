@@ -905,6 +905,13 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	opacity:0;
 }
 
+.project-gallery.small-slider .slick-track {
+	transform:none!important;
+	-webkit-transform:none!important;
+	-moz-transform:none!important;
+	text-align:center;
+}
+
 .project-gallery .slick-slide {
     float: left;
     width: auto;
