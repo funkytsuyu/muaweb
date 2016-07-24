@@ -82,7 +82,6 @@ jQuery(function($) {
 	// slick for about page
 
 	$('.publications').slick({
-		dots: true,
 		centerMode: false,
 	  infinite: true,
 	  slidesToShow: 3,

@@ -46,7 +46,7 @@ $photourl = wp_get_attachment_url($photo);
       <?php if($link) { echo '</a>'; } ?>
     </div>
     <?php } ?>
-    <div>
+  </div>
       <div class="pub-arrows"></div>
   </div>
 
