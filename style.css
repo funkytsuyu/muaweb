@@ -1197,6 +1197,12 @@ input[type="submit"]:hover {
 		margin-left:-50%;
 		max-width:200%;
 	}
+	.project.square .overlay {
+		display:none;
+	}
+	.project.square:hover .overlay {
+		top: 285px;
+	}
 }
 
 @media screen and (max-width:780px) {
