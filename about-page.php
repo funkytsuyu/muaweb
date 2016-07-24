@@ -23,8 +23,8 @@ $photourl = wp_get_attachment_url($photo);
 
   <?php if($publication_title) { echo '<h2>' . $publication_title . '</h2>'; } ?>
 
-  <div class="publications">
-    <div class="pub-arrows"></div>
+  <div class="publications-container">
+    <div class="publications">
     <?php
     $pubarrays = simple_fields_get_post_group_values(get_the_id(), "publications", true, 1);
     $pubtitles = $pubarrays["Nom de la publication"];
@@ -46,7 +46,10 @@ $photourl = wp_get_attachment_url($photo);
       <?php if($link) { echo '</a>'; } ?>
     </div>
     <?php } ?>
+    <div>
+      <div class="pub-arrows"></div>
   </div>
+
 
   <div class="collabs">
     <?php if($collab_title) { echo '<h2>' . $collab_title . '</h2>'; } ?>
