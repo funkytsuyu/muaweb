@@ -89,7 +89,6 @@ jQuery(function($) {
 	  slidesToScroll: 1,
 		variableWidth: true,
 		draggable: true,
-		appendDots: '.gallery-dots',
 		appendArrows: '.pub-arrows'
 	});
 
