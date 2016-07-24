@@ -16,28 +16,6 @@ jQuery(function($) {
 		}
 	});
 
-	$(window).scroll(function() {
-		if($('html').width() <= '780') {
-
-		} else {
-			if($('body').hasClass( "home" )) {
-				if ($(this).scrollTop() > 620) {
-					$("nav").addClass('sticky');
-				} else {
-					$("nav").removeClass('sticky');
-				}
-				$('.banner img').css({'opacity':( 100-($(window).scrollTop()/6) )/100});
-			} else {
-				if ($(this).scrollTop() > 320) {
-					$("nav").addClass('sticky');
-				} else {
-					$("nav").removeClass('sticky');
-				}
-				$('.banner img').css({'opacity':( 100-($(window).scrollTop()/6) )/100});
-			}
-		}
-	});
-
 	// slick js
 
 	$('.project-gallery').slick({
