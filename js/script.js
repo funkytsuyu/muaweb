@@ -52,6 +52,14 @@ jQuery(function($) {
 		]
 	});
 
+	if($('.project-gallery').length){
+		var num_slides = $('.project-gallery').find('.slick-slide').length;
+		if(num_slides < 4) {
+			$('.project-gallery').addClass('small-slider');
+		}
+	}
+
+
 	var $projectgallery = $('.project-gallery');
 	$projectgallery.imagesLoaded( function() {
 		$('.project-gallery').animate({opacity: 1}, 700);
