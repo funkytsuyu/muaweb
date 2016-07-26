@@ -21,7 +21,7 @@ $photourl = wp_get_attachment_url($photo);
     <div class="flex-2"><div class='padding-left'><?php echo $bio; ?></div></div>
     <div class="collabs flex-2">
       <div class='padding-left'>
-      <?php if($collab_title) { echo '<h2>' . $collab_title . '</h2>'; } ?>
+      <?php if($collab_title) { echo '<h1 class="bio-title">' . $collab_title . '</h1>'; } ?>
       <?php
       $collabarrays = simple_fields_get_post_group_values(get_the_id(), "Collaborations", true, 1);
       $collabnames = $collabarrays["Nom du collaborateur"];
