@@ -7,8 +7,8 @@
     <div class="home-slider">
     <?php
     $bannerarrays = simple_fields_get_post_group_values(get_the_id(), "Banners", true, 1);
-    $bannerimgs = $bannerarrays["image"];
-    $bannerlinks = $bannerarrays["Lien"];
+    $bannerimgs = $bannerarrays["Image"];
+    $bannerlinks = $bannerarrays["Link"];
     $bannernum  = count($bannerimgs);
     for($i = 0; $i < $bannernum; $i++) {
       $img = $bannerimgs[$i];
@@ -26,6 +26,8 @@
   </div>
       <div class="banner-dots"></div>
   </div>
+
+  <
 
 
 </section>
