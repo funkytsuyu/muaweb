@@ -18,7 +18,31 @@ $photourl = wp_get_attachment_url($photo);
 
   <div class="bio flex-row">
     <div class="flex-1"><img src="<?php echo $photourl; ?>"></div>
-    <div class="flex-2"><div class='padding-left'><?php echo $bio; ?></div></div>
+    <div class="flex-1"><div class='padding-left'><?php echo $bio; ?></div></div>
+    <div class="collabs flex-1">
+      <?php if($collab_title) { echo '<h2>' . $collab_title . '</h2>'; } ?>
+      <?php
+      $collabarrays = simple_fields_get_post_group_values(get_the_id(), "Collaborations", true, 1);
+      $collabnames = $collabarrays["Nom du collaborateur"];
+      $collablinks = $collabarrays["Lien du collaborateur"];
+      $collabnum  = count($collabnames);
+      for($i = 0; $i < $collabnum; $i++) {
+        $name = $collabnames[$i];
+        $link = $collablinks[$i];
+      ?>
+      <div class="collab sixth">
+          <?php if($name) {
+            echo '<div class="name">';
+            if($link) {
+              echo '<a href="' . $link . '">' . $name . '</a>';
+            } else {
+              echo $name;
+            }
+            echo '</div>';
+          } ?>
+      </div>
+      <?php } ?>
+    </div>
   </div>
 
   <?php if($publication_title) { echo '<h2>' . $publication_title . '</h2>'; } ?>
@@ -48,31 +72,6 @@ $photourl = wp_get_attachment_url($photo);
     <?php } ?>
   </div>
       <div class="pub-arrows"></div>
-  </div>
-
-  <div class="collabs">
-    <?php if($collab_title) { echo '<h2>' . $collab_title . '</h2>'; } ?>
-    <?php
-    $collabarrays = simple_fields_get_post_group_values(get_the_id(), "Collaborations", true, 1);
-    $collabnames = $collabarrays["Nom du collaborateur"];
-    $collablinks = $collabarrays["Lien du collaborateur"];
-    $collabnum  = count($collabnames);
-    for($i = 0; $i < $collabnum; $i++) {
-      $name = $collabnames[$i];
-      $link = $collablinks[$i];
-    ?>
-    <div class="collab sixth">
-        <?php if($name) {
-          echo '<div class="name">';
-          if($link) {
-            echo '<a href="' . $link . '">' . $name . '</a>';
-          } else {
-            echo $name;
-          }
-          echo '</div>';
-        } ?>
-    </div>
-    <?php } ?>
   </div>
 
   <div class="insta">
