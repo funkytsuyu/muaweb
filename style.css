@@ -699,6 +699,8 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 
 .banner-dots .slick-dots li button:hover {
 	opacity:1;
+	background:#fff;
+	color:#fff;
 }
 
 .banner-dots .slick-dots .slick-active button {
