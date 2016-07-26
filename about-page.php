@@ -18,8 +18,8 @@ $photourl = wp_get_attachment_url($photo);
 
   <div class="bio flex-row">
     <div class="flex-1"><img src="<?php echo $photourl; ?>"></div>
-    <div class="flex-1"><div class='padding-left'><?php echo $bio; ?></div></div>
-    <div class="collabs flex-1">
+    <div class="flex-2"><div class='padding-left'><?php echo $bio; ?></div></div>
+    <div class="collabs flex-2">
       <?php if($collab_title) { echo '<h2>' . $collab_title . '</h2>'; } ?>
       <?php
       $collabarrays = simple_fields_get_post_group_values(get_the_id(), "Collaborations", true, 1);
