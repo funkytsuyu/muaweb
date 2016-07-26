@@ -27,7 +27,9 @@
       <div class="banner-dots"></div>
   </div>
 
-  <
+  <div>
+
+  </div>
 
 
 </section>
