@@ -691,17 +691,17 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	width: 100%;
 }
 
-.banner-dots li button {
+.banner-dots .slick-dots li button {
 	background:#fff;
 	color:#fff;
 	opacity:0.6;
 }
 
-.banner-dots li button:hover {
+.banner-dots .slick-dots li button:hover {
 	opacity:1;
 }
 
-.banner-dots .slick-active button {
+.banner-dots .slick-dots .slick-active button {
     background: #fff;
     color: #fff;
 		opacity:1;
