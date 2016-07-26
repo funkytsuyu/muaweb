@@ -591,6 +591,10 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	height:auto;
 }
 
+.home-slider .slick-list {
+	padding:0!important;
+}
+
 .home-slider-container .slick-prev,
 .home-slider-container .slick-next {
 	display:none!important;
