@@ -18,6 +18,16 @@ jQuery(function($) {
 
 	// slick js
 
+	$('.home-slider').slick({
+		dots: true,
+		centerMode: true,
+		autoplay: true,
+	  infinite: true,
+		draggable: true,
+		appendDots: '.banner-dots',
+	});
+
+
 	$('.project-gallery').slick({
 		dots: true,
 		centerMode: true,
