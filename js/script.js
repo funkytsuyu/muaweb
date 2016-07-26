@@ -25,7 +25,7 @@ jQuery(function($) {
 	  infinite: true,
 		draggable: true,
 		appendDots: '.banner-dots',
-		autoplaySpeed: 2000,
+		autoplaySpeed: 4000,
 		speed: 1000,
 		fade: true,
 	});
