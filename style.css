@@ -574,6 +574,8 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 
 .home-slider-container {
 	position:relative;
+	max-width:1500px;
+	margin:0 auto;
 }
 
 .home-slider {
