@@ -1,8 +1,7 @@
 <?php
 // template name: home page
  get_header(); ?>
-<section id="content" role="main" class="wrap">
-
+<section id="content" role="main">
   <div class="home-slider-container">
     <div class="home-slider">
     <?php
@@ -26,11 +25,13 @@
   </div>
       <div class="banner-dots"></div>
   </div>
+  <div class="wrap">
 
   <div>
     <?php the_content(); ?>
   </div>
 
+</div>
 
 </section>
 <?php get_footer(); ?>
