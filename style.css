@@ -1214,20 +1214,7 @@ input[type="submit"]:hover {
 -------------------------------- */
 
 @media screen and (max-width:1500px) {
-	.home .banner {
-		height:400px;
-	}
 
-	.home #ribbon {
-		top:200px;
-	}
-
-	.banner-img img {
-		margin-top:0;
-		width:145%;
-		margin-left:-22.5%;
-		max-width:145%;
-	}
 }
 
 @media screen and (max-width:1024px) {
