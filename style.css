@@ -313,108 +313,7 @@ h3 {
 //////////// HEADER //////////////
 -------------------------------- */
 
-.banner {
-	height:300px;
-	overflow:hidden;
-	position:relative;
-	text-align:center;
-	z-index:0;
-	background:#00A5B5;
-	 -webkit-transition: height 50ms;
-    -moz-transition: height 50ms;
-    -o-transition:height 50ms;
-    transition: height 50ms;
 
-}
-
-.home .banner {
-	height:600px;
-}
-
-.banner-img {
-	position: fixed;
-	width:100%;
-	left: 0;
-	z-index: -1;
-}
-
-.banner-img img {
-	width:100%;
-	margin-top: 0;
-	 -webkit-transition:  50ms;
-    -moz-transition:  50ms;
-    -o-transition: 50ms;
-    transition:  50ms;
-}
-
-.home .banner-img img {
-	margin-top:0;
-}
-
-#ribbon {
-	position:absolute;
-	top:130px;
-	width:100%;
-	text-align:right;
-	z-index: 10;
-	 -webkit-transition:  50ms;
-    -moz-transition:  50ms;
-    -o-transition: 50ms;
-    transition:  50ms;
-}
-
-.home #ribbon {
-	top:400px;
-}
-
-#ribbon h1 a {
-	position: relative;
-	height:50px;
-	display: inline-block;
-}
-
-#ribbon h1 span {
-	position:relative;
-	padding: 0.6em;
-	font-size: 1.4em;
-	background: #fff;
-	font-weight: 300;
-	font-style: italic;
-	display: inline-block;
-	z-index:5;
-	min-width: 150px;
-	text-align: center;
-}
-
-#ribbon h1 span p {
-	position:relative;
-	z-index:10;
-}
-
-#shadow {
-	position:absolute;
-	width:150px;
-	height:50px;
-	display:block;
-	bottom:-1em;
-	left: -0.7em;
-	background: url('img/shadow.png') left bottom no-repeat;
-	z-index:1;
-}
-
-
-
-#ribbon h2 {
-	font-size: 1.5em;
-	padding:0.5em;
-	background:#A093BE;
-	color:#fff;
-	display:inline-block;
-	line-height:1.5em;
-	margin:0;
-	border:0;
-	font-style:normal;
-}
 
 #ribbon h2 span {
 	font-style:italic;
@@ -1255,10 +1154,6 @@ input[type="submit"]:hover {
 		margin-right:0;
 	}
 
-	.home .banner {
-		height:300px;
-	}
-
 	.home #ribbon {
 		top:150px;
 	}
@@ -1467,10 +1362,6 @@ input[type="submit"]:hover {
 
 	#ribbon {
 		top:40px;
-	}
-
-	.home .banner {
-		height:200px;
 	}
 
 	.banner-img img {
