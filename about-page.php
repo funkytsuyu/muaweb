@@ -17,9 +17,9 @@ $photourl = wp_get_attachment_url($photo);
 <section class="entry-content">
 
   <div class="bio flex-row">
-    <div class="flex-1"><img src="<?php echo $photourl; ?>"></div>
-    <div class="flex-2"><div class='padding-left'><?php echo $bio; ?></div></div>
-    <div class="collabs flex-2">
+    <div class="flex-2"><img src="<?php echo $photourl; ?>"></div>
+    <div class="flex-3"><div class='padding-left'><?php echo $bio; ?></div></div>
+    <div class="collabs flex-3">
       <div class='padding-left'>
       <?php if($collab_title) { echo '<h1 class="bio-title">' . $collab_title . '</h1>'; } ?>
       <?php
