@@ -610,6 +610,14 @@ nav {
 /////////// HOME PAGE ////////////
 -------------------------------- */
 
+.home #container {
+	padding-top:60px;
+}
+
+.home nav {
+	border:0;
+}
+
 #wdi_feed_0 .wdi_header_user_text h3 {
 	font-size:27px;
 	font-weight:300;
