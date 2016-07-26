@@ -703,18 +703,27 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	background:#fff;
 	color:#fff;
 	opacity:0.6;
+	font-size:1px;
+	height:8px;
+	width:8px;
 }
 
 .banner-dots .slick-dots li button:hover {
 	opacity:1;
 	background:#fff;
 	color:#fff;
+	font-size:1px;
+	height:8px;
+	width:8px;
 }
 
 .banner-dots .slick-dots .slick-active button {
     background: #fff;
     color: #fff;
 		opacity:1;
+		font-size:1px;
+		height:8px;
+		width:8px;
 }
 
 /* -------------------------------
