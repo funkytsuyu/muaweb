@@ -47,7 +47,7 @@ $photourl = wp_get_attachment_url($photo);
     </div>
   </div>
 
-  <?php if($publication_title) { echo '<h2>' . $publication_title . '</h2>'; } ?>
+  <?php if($publication_title) { echo '<h1 class="bio-title">' . $publication_title . '</h1>'; } ?>
 
   <div class="publications-container">
     <div class="publications">
