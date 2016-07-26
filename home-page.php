@@ -28,7 +28,7 @@
   </div>
 
   <div>
-
+    <?php the_content(); ?>
   </div>
 
 
