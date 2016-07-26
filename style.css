@@ -589,6 +589,15 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 
 .home-slider .slick-slide {
 	height:auto;
+	text-align:center;
+}
+
+.home-slider .slick-slide .img {
+	text-align:center;
+}
+
+.home-slider .slick-slide .img img {
+	margin:0 auto;
 }
 
 .home-slider .slick-list {
