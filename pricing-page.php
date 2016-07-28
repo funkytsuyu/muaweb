@@ -6,6 +6,7 @@ $general_package_title = simple_fields_value('regular_services_title');
 $wedding_package_title = simple_fields_value('wedding_services_title');
 $general_package_notes = simple_fields_value('regular_services_notes');
 $wedding_package_notes = simple_fields_value('wedding_services_notes');
+$general_notes = simple_fields_value('general_notes');
 ?>
 
 <?php get_header(); ?>
@@ -64,6 +65,9 @@ $wedding_package_notes = simple_fields_value('wedding_services_notes');
       echo '<div class="price-notes">' . $wedding_package_notes . '</div>';
     }?>
   </div>
+  <?php if($general_notes){ ?>
+    <div class="full price-notes"><?php echo $general_notes; ?></div>
+  <?php } ?>
 
 </section>
 </article>
