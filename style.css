@@ -1274,11 +1274,6 @@ input[type="submit"]:hover {
 		display:none;
 	}
 
-	nav {
-		bottom:-100px;
-		height:100px;
-	}
-
 	#container {
 		padding-top:150px;
 	}
@@ -1291,16 +1286,6 @@ input[type="submit"]:hover {
 		display:none;
 	}
 
-
-	.home #ribbon {
-		top: 150px;
-	}
-	.banner-img img {
-		margin-top:0;
-		width:250%;
-		margin-left:-62.5%;
-		max-width:250%;
-	}
 	#masonry .project-infos,
 	#masonry .half {
 		width:calc(100% - 20px);
