@@ -1114,7 +1114,7 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	clear:both;
 }
 
-.vfb-item-textarea input {
+.vfb-item-textarea textarea {
 	width:100%;
 	font-size: 1rem;
 	margin: 0;
