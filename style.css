@@ -1261,7 +1261,9 @@ input[type="submit"]:hover {
 	#menu .wrap {
 		padding:0;
 	}
-
+	.snipit {
+		padding-top:50px;
+	}
 	#menu .social {
 		display:none;
 	}
