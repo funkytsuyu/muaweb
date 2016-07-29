@@ -518,8 +518,12 @@ nav {
 }
 
 #wdi_feed_0 .wdi_header_user_text h3 {
-	font-size:27px;
-	font-weight:300;
+	font-size: 1.5em;
+	font-weight: 100;
+	line-height: 1.2em;
+	margin-bottom: 1em;
+	text-align: center;
+	margin-top: 100px;
 	color:#888888;
 }
 
@@ -957,9 +961,17 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 
 .price-notes {
 	font-size: 0.8em;
-    line-height: 1.2em;
-    color: #bebcc3;
-		margin-top:40px;
+  line-height: 1.2em;
+  color: #bebcc3;
+	margin-top:40px;
+}
+
+.price-notes a {
+	font-size: 0.8em;
+  line-height: 1.2em;
+  color: #817e8a;
+	margin-top:40px;
+	font-weight:normal;
 }
 
 /* -------------------------------
