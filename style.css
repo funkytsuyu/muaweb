@@ -1095,7 +1095,7 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 }
 
 .vfb-item-text,
-.vfb-email-item {
+.vfb-item-email {
 	width:50%;
 	float:left;
 }
@@ -1103,6 +1103,10 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 .vfb-item-text input,
 .vfb-item-email input {
 	width:calc(100% - 20px);
+	font-size: 1rem;
+	margin: 0;
+	border: 1px solid #bebcc3;
+	padding: 6px;
 }
 
 .vfb-item-textarea {
@@ -1112,6 +1116,10 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 
 .vfb-item-textarea input {
 	width:100%;
+	font-size: 1rem;
+	margin: 0;
+	border: 1px solid #bebcc3;
+	padding: 6px;
 }
 
 input[type="submit"]:focus {
