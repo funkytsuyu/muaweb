@@ -1,4 +1,4 @@
-<?php 
+<?php
 /* template name: contact */
 ?>
 
@@ -21,7 +21,7 @@
 		<h3>
 			<?php echo stripslashes(get_option('AL_text_contact'));?>
 		</h3>
-		<?php echo do_shortcode('[bws_contact_form]'); ?>
+		<?php echo do_shortcode("[vfb id='1']"); ?>
 	</div>
 </section>
 <?php get_footer(); ?>
