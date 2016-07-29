@@ -1094,6 +1094,26 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	outline:0;
 }
 
+.vfb-item-text,
+.vfb-email-item {
+	width:50%;
+	float:left;
+}
+
+.vfb-item-text input,
+.vfb-email-item input {
+	width:calc(100% - 20px);
+}
+
+.vfb-item-textarea {
+	width:100%;
+	clear:both;
+}
+
+.vfb-item-textarea input {
+	width:100%;
+}
+
 input[type="submit"]:focus {
 	outline:0;
 }
