@@ -1241,10 +1241,22 @@ input[type="submit"]:hover {
 		float: none;
 		text-align:center;
 	}
+	nav {
+		bottom: -50px;
+    height: 50px;
+		border:0;
+	}
+	.menu a {
+		font-size: 0.8em;
+		display: block;
+		float: none;
+		padding: 0 30px;
+		line-height: 50px;
+		background:#fff;
+		text-align:center;
+	}
 	.menu {
-		margin-left:0;
-		padding-left:1rem;
-		position:static;
+		padding-left:0;
 	}
 	#logo {
 		display:block;
@@ -1355,23 +1367,6 @@ input[type="submit"]:hover {
 	}
 	.collab {
 		text-align:center;
-	}
-	nav {
-		bottom: -50px;
-    height: 50px;
-		border:0;
-	}
-	.menu a {
-		font-size: 0.8em;
-		display: block;
-		float: none;
-		padding: 0 30px;
-		line-height: 50px;
-		background:#fff;
-		text-align:center;
-	}
-	.menu {
-		padding-left:0;
 	}
 	#ribbon h1 span {
 		text-align:right;
