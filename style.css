@@ -1248,6 +1248,7 @@ input[type="submit"]:hover {
 	}
 	.menu {
 		padding-left:0;
+		margin-left:0;
 	}
 	#logo {
 		display:block;
