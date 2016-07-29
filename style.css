@@ -974,6 +974,10 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	font-weight:normal!important;
 }
 
+.price-notes a:hover {
+	text-decoration:uderline;
+}
+
 /* -------------------------------
 ////////// ABOUT PAGE ////////////
 -------------------------------- */
