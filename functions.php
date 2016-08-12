@@ -17,11 +17,11 @@ function oascore_load_scripts()
 	wp_register_script( 'script', get_template_directory_uri() . '/js/script.js', 'jquery', null, true );
 	wp_register_script( 'functoggle', get_template_directory_uri() . '/js/jquery.func_toggle.js', 'jquery', null, true );
 	wp_register_script( 'imagesLoaded', get_template_directory_uri() . '/js/imagesloaded.pkgd.min.js', 'jquery', null, true );
-	wp_register_script( 'isotope', get_template_directory_uri() . '/js/isotope.pkgd.min.js', 'jquery', null, true );
+	wp_register_script( 'masonry', get_template_directory_uri() . '/js/masonry.pkgd.min.js', 'jquery', null, true );
 	wp_register_script( 'slick', get_template_directory_uri() . '/js/slick.js', 'jquery', null, true );
 	wp_enqueue_script('jquery');
 	wp_enqueue_script('imagesLoaded');
-	wp_enqueue_script('isotope');
+	wp_enqueue_script('masonry');
 	wp_enqueue_script('functoggle');
 	wp_enqueue_script('slick');
 	wp_enqueue_script('script');
