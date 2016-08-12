@@ -108,7 +108,7 @@ jQuery(function($) {
 				// options
 				itemSelector: '.project'
 			});
-		}
+		});
 
 	}
 
