@@ -583,7 +583,7 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 }
 
 .home-slider {
-	height: 550px;
+	height:1000px;
 	left:0;
 	position:relative;
   overflow: hidden;
@@ -1185,7 +1185,9 @@ input[type="submit"]:hover {
 -------------------------------- */
 
 @media screen and (max-width:1500px) {
-
+	.home-slider {
+		height: 550px;
+	}
 }
 
 @media screen and (max-width:1024px) {
