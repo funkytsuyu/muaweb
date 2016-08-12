@@ -100,18 +100,6 @@ jQuery(function($) {
 		$('.slick-next').html('<i class="fa fa-angle-right" aria-hidden="true"></i>');
 	}
 
-	// isotope layout for project pages
-
-	var $container = $('#masonry');
-	// init
-	$container.imagesLoaded( function() {
-		$container.masonry({
-			// options
-			itemSelector: 'div',
-			layoutMode: 'masonry'
-		});
-	});
-
 	if($('body').hasClass('category')) {
 
 		var $containerCat = $('#masonry-cat').masonry({
