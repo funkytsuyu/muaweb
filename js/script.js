@@ -102,12 +102,13 @@ jQuery(function($) {
 
 	if($('body').hasClass('category')) {
 
-		var $containerCat = $('#masonry-cat')
+		var $containerCat = $('#masonry-cat').masonry({
+			// options
+			itemSelector: '.project'
+		});
+
 		$containerCat.imagesLoaded( function() {
-			$containerCat.masonry({
-				// options
-				itemSelector: '.project'
-			});
+			$('#masonry-cat').animate({opacity: 1}, 700);
 		});
 
 	}
