@@ -120,7 +120,7 @@ jQuery(function($) {
 			});
 
 		var $items = $('.project');
-	  $container.masonryImagesReveal( $items );
+	  $containerCat.masonryImagesReveal( $items );
 	}
 
 	$.fn.masonryImagesReveal = function( $items ) {
