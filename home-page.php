@@ -18,7 +18,7 @@
     ?>
     <div class="banner">
       <?php if($link) { echo '<a href="' . $link . '">'; } ?>
-        <div class="img" style="background-color:<?php echo $back_color;">
+        <div class="img" style="background-color:<?php echo $back_color;?>">
           <?php echo '<img src="' . $imgurl . '">'; ?>
         </div>
       <?php if($link) { echo '</a>'; } ?>
