@@ -123,7 +123,7 @@ jQuery(function($) {
 	  $containerCat.masonryImagesReveal( $items );
 	}
 
-	$.fn.masonryImagesReveal = function( $items ) {
+	function masonryImagesReveal( $items ) {
 	var msnry = this.data('masonry');
 	var itemSelector = msnry.options.itemSelector;
 	// hide by default
