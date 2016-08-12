@@ -123,26 +123,6 @@ jQuery(function($) {
 	  $containerCat.masonryImagesReveal( $items );
 	}
 
-	function masonryImagesReveal( $items ) {
-	var msnry = this.data('masonry');
-	var itemSelector = msnry.options.itemSelector;
-	// hide by default
-	$items.hide();
-	// append to container
-	this.append( $items );
-	$items.imagesLoaded().progress( function( imgLoad, image ) {
-		// get item
-		// image is imagesLoaded class, not <img>, <img> is image.img
-		var $item = $( image.img ).parents( itemSelector );
-		// un-hide item
-		$item.show();
-		// masonry does its thing
-		msnry.appended( $item );
-	});
-
-	return this;
-};
-
 	$('button.mobile-menu-button').funcToggle('click', function() {
 		$('.snipit').animate({
 			height:'354px'
@@ -155,4 +135,25 @@ jQuery(function($) {
 		}, 200);
 		$('.mobile-menu-button-icon-open').animate({opacity: 0}, 500);
 	});
+
+	$.fn.masonryImagesReveal = function( $items ) {
+	  var msnry = this.data('masonry');
+	  var itemSelector = msnry.options.itemSelector;
+	  // hide by default
+	  $items.hide();
+	  // append to container
+	  this.append( $items );
+	  $items.imagesLoaded().progress( function( imgLoad, image ) {
+	    // get item
+	    // image is imagesLoaded class, not <img>, <img> is image.img
+	    var $item = $( image.img ).parents( itemSelector );
+	    // un-hide item
+	    $item.show();
+	    // masonry does its thing
+	    msnry.appended( $item );
+	  });
+
+	  return this;
+	};
+
 });
