@@ -102,13 +102,14 @@ jQuery(function($) {
 
 	if($('body').hasClass('category')) {
 
-		var $containerCat = $('#masonry-cat').masonry({
-			// options
-			itemSelector: '.project'
-		});
+		var $containerCat = $('#masonry-cat');
 
 		$containerCat.imagesLoaded( function() {
-			$('#masonry-cat').animate({opacity: 1}, 700);
+			$('#masonry-cat').masonry({
+				// options
+				itemSelector: '.project'
+			});
+			$('#content').animate({opacity: 1}, 700);
 		});
 
 	}
