@@ -578,7 +578,7 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 
 .home-slider-container {
 	position:relative;
-	max-width:1500px;
+	width:100%;
 	margin:0 auto;
 }
 
