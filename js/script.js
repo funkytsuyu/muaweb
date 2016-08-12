@@ -102,14 +102,14 @@ jQuery(function($) {
 
 	if($('body').hasClass('category')) {
 
-		var $containerCat = $('#masonry-cat').masonry({
-			// options
-			itemSelector: '.project'
-		});
+		var $containerCat = $('#masonry-cat')
+		containerCat.imagesLoaded( function() {
+			containerCat.masonry({
+				// options
+				itemSelector: '.project'
+			});
+		}
 
-		var $items = $('.project');
-	  $containerCat.masonryImagesReveal( $items );
-		
 	}
 
 	$('button.mobile-menu-button').funcToggle('click', function() {
@@ -124,25 +124,5 @@ jQuery(function($) {
 		}, 200);
 		$('.mobile-menu-button-icon-open').animate({opacity: 0}, 500);
 	});
-
-	$.fn.masonryImagesReveal = function( $items ) {
-	  var msnry = this.data('masonry');
-	  var itemSelector = msnry.options.itemSelector;
-	  // hide by default
-	  $items.hide();
-	  // append to container
-	  this.append( $items );
-	  $items.imagesLoaded().progress( function( imgLoad, image ) {
-	    // get item
-	    // image is imagesLoaded class, not <img>, <img> is image.img
-	    var $item = $( image.img ).parents( itemSelector );
-	    // un-hide item
-	    $item.show();
-	    // masonry does its thing
-	    msnry.appended( $item );
-	  });
-
-	  return this;
-	};
 
 });
