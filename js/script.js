@@ -103,8 +103,8 @@ jQuery(function($) {
 	if($('body').hasClass('category')) {
 
 		var $containerCat = $('#masonry-cat')
-		containerCat.imagesLoaded( function() {
-			containerCat.masonry({
+		$containerCat.imagesLoaded( function() {
+			$containerCat.masonry({
 				// options
 				itemSelector: '.project'
 			});
