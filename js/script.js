@@ -112,14 +112,16 @@ jQuery(function($) {
 		});
 	});
 
-	var $containerCat = $('#masonry-cat');
-	// init
-	$containerCat.masonry({
-			// options
-			itemSelector: '.project',
-			layoutMode: 'masonry'
-		});
+	if($('body').hasClass('category')) {
 
+		var $containerCat = $('#masonry-cat').masonry({
+				// options
+				itemSelector: '.project'
+			});
+
+		var $items = $('.project');
+	  $container.masonryImagesReveal( $items );
+	}
 
 	$.fn.masonryImagesReveal = function( $items ) {
 	var msnry = this.data('masonry');
