@@ -1112,6 +1112,7 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	margin: 0;
 	border: 1px solid #bebcc3;
 	padding: 6px;
+	box-sizing:border-box;
 }
 
 .vfb-item-text input:focus,
