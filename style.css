@@ -1124,8 +1124,9 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	width:100%;
 	font-size: 1rem;
 	margin: 0;
-	border: 1px solid #bebcc3;
+	border: 2px solid #bebcc3;
 	padding: 6px;
+	box-sizing: border-box;
 }
 
 input[type="submit"]:focus {
@@ -1140,7 +1141,7 @@ label {
 }
 
 input[type="submit"] {
-	font-weight: 300!important;
+	font-weight: 600!important;
 	padding: 0.5em 1em;
 	border: 2px solid #bebcc3;
 	display: inline-block;
@@ -1152,7 +1153,8 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
 	color:#000;
-	border: 1px solid #000;
+	font-weight: 600!important;
+	border: 2px solid #000;
 }
 
 
