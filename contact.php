@@ -5,6 +5,7 @@
 $map = simple_fields_value('map');
 $map_url = wp_get_attachment_url($map);
 $contact_text = simple_fields_value('contact_text');
+$contact_title = stripslashes(get_option('AL_text_contact'));
 ?>
 
 <?php get_header(); ?>
@@ -28,9 +29,11 @@ $contact_text = simple_fields_value('contact_text');
 			<?php endwhile; endif; ?>
 		</div>
 		<div class="half">
-			<h3>
-				<?php echo stripslashes(get_option('AL_text_contact'));?>
-			</h3>
+			<?php if($contact_title) { ?>
+				<h3>
+					<?php echo $contact_title;?>
+				</h3>
+			<?php } ?>
 			<?php echo do_shortcode("[vfb id='1']"); ?>
 		</div>
 	</div>
