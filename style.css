@@ -1211,7 +1211,9 @@ input[type="submit"]:hover {
 -------------------------------- */
 
 @media screen and (max-width:1280px) {
-	margin:0 40px;
+	.wrap {
+		padding:0 2em;
+	}
 }
 
 @media screen and (max-width:1500px) {
@@ -1221,9 +1223,6 @@ input[type="submit"]:hover {
 }
 
 @media screen and (max-width:1024px) {
-	.wrap {
-		padding:0 2em;
-	}
 
 	.banner-img img {
 		margin-top:0;
