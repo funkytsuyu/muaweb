@@ -1214,6 +1214,12 @@ input[type="submit"]:hover {
 	.wrap {
 		padding:0 2em;
 	}
+	.pub-arrows .slick-prev {
+		left:-38px;
+	}
+	.pub-arrows .slick-next {
+		right:-38px;
+	}
 }
 
 @media screen and (max-width:1500px) {
