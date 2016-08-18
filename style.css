@@ -52,6 +52,10 @@ body {
 	padding-top:75px;
 }
 
+.page-template-contac #container {
+	padding-top:70px;
+}
+
 blockquote {
 	font-size: 1.5em;
 	font-weight: 300;
