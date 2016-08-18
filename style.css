@@ -1095,9 +1095,13 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	outline:0;
 }
 
+.vfb-fieldset-1 .vfb-item-text {
+	margin-right:20px;
+}
+
 .vfb-item-text,
 .vfb-item-email {
-	width:50%;
+	width:calc(50% - 10px);
 	float:left;
 }
 
@@ -1106,7 +1110,7 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	width:calc(100% - 20px);
 	font-size: 1rem;
 	margin: 0;
-	border: 2px solid #bebcc3;
+	border: 1px solid #bebcc3;
 	padding: 6px;
 }
 
@@ -1124,7 +1128,7 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	width:100%;
 	font-size: 1rem;
 	margin: 0;
-	border: 2px solid #bebcc3;
+	border: 1px solid #bebcc3;
 	padding: 6px;
 	box-sizing: border-box;
 }
@@ -1141,9 +1145,9 @@ label {
 }
 
 input[type="submit"] {
-	font-weight: 600!important;
+	font-weight: 300!important;
 	padding: 0.5em 1em;
-	border: 2px solid #bebcc3;
+	border: 1px solid #bebcc3;
 	display: inline-block;
 	margin: 1em auto 0 auto;
 	font-size: 1em;
@@ -1153,8 +1157,8 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
 	color:#000;
-	font-weight: 600!important;
-	border: 2px solid #000;
+	font-weight: 300!important;
+	border: 1px solid #000;
 }
 
 
