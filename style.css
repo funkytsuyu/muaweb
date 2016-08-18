@@ -447,7 +447,8 @@ nav {
 	border-top:0;
 }
 
-.page-template-contact .mobile-menu {
+.page-template-contact .mobile-menu,
+.home .mobile-menu {
 	border:0;
 }
 
@@ -1357,6 +1358,9 @@ input[type="submit"]:hover {
 		width:calc(100% - 20px);
 	}
 	.page-template-contact #container {
+		padding-top:50px;
+	}
+	.home #container {
 		padding-top:50px;
 	}
 }
