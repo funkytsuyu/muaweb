@@ -1144,9 +1144,11 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	border: 1px solid #bebcc3;
 	padding: 6px;
 	box-sizing: border-box;
+	min-height:120px;
 }
 
-input[type="submit"]:focus {
+input[type="submit"]:focus,
+.vfb-item-textarea textarea:focus {
 	outline:0;
 }
 
