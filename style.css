@@ -1106,8 +1106,13 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	width:calc(100% - 20px);
 	font-size: 1rem;
 	margin: 0;
-	border: 1px solid #bebcc3;
+	border: 2px solid #bebcc3;
 	padding: 6px;
+}
+
+.vfb-item-text input:focus,
+.vfb-item-email input:focus {
+	outline:none;
 }
 
 .vfb-item-textarea {
@@ -1137,12 +1142,12 @@ label {
 input[type="submit"] {
 	font-weight: 300!important;
 	padding: 0.5em 1em;
-	border: 1px solid #fff;;
+	border: 2px solid #bebcc3;
 	display: inline-block;
 	margin: 1em auto 0 auto;
 	font-size: 1em;
 	background: transparent;
-	color:#fff;
+	color:#bebcc3;
 }
 
 input[type="submit"]:hover {
