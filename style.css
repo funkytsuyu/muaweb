@@ -56,6 +56,14 @@ body {
 	padding-top:60px;
 }
 
+.page-template-contact nav {
+	border:0;
+}
+
+.contact-map {
+	margin-bottom:30px;
+}
+
 blockquote {
 	font-size: 1.5em;
 	font-weight: 300;
