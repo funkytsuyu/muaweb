@@ -92,7 +92,15 @@ jQuery(function($) {
 	  slidesToScroll: 1,
 		variableWidth: true,
 		draggable: true,
-		appendArrows: '.pub-arrows'
+		appendArrows: '.pub-arrows',
+		responsive: [
+			{
+				breakpoint: 1280,
+				settings: {
+					slidesToShow: 1
+				}
+			}
+		]
 	});
 
 	if($('body').hasClass('page-template-about-page')){
