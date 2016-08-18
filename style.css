@@ -1210,6 +1210,10 @@ input[type="submit"]:hover {
 ////////// RESPONSIVE /////////////
 -------------------------------- */
 
+@media screen and (max-width:1280px) {
+	margin:0 40px;
+}
+
 @media screen and (max-width:1500px) {
 	.home-slider {
 		height: 720px;
