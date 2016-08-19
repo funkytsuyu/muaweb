@@ -23,6 +23,7 @@
           </div>
         <?php if($moblink) { echo '</a>'; } ?>
       </div>
+      <?php } ?>
     </div>
   </div>
   <div class="home-slider-container">
