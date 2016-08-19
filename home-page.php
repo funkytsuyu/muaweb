@@ -2,6 +2,29 @@
 // template name: home page
  get_header(); ?>
 <section id="content" role="main">
+  <div class="home-mobile-slider-container">
+    <div class="home-mobile-slider">
+      <?php
+      $mobbannerarrays = simple_fields_get_post_group_values(get_the_id(), "Mobile banners", true, 1);
+      $mobbannerimgs = $mobbannerarrays["Image"];
+      $mobbannerlinks = $mobbannerarrays["Link"];
+      $mobbannerbackcolors = $mobbannerarrays["Background color"];
+      $mobbannernum  = count($mobbannerimgs);
+      for($i = 0; $i < $bannernum; $i++) {
+        $mobimg = $mobbannerimgs[$i];
+        $moblink = $mobbannerlinks[$i];
+        $mobback_color = $mobbannerbackcolors[$i];
+        $mobimgurl = wp_get_attachment_url($mobimg);
+      ?>
+      <div class="mob-banner">
+        <?php if($moblink) { echo '<a href="' . $moblink . '">'; } ?>
+          <div class="img" style="background-color:<?php echo $mobback_color;?>">
+            <?php echo '<img src="' . $mobimgurl . '">'; ?>
+          </div>
+        <?php if($moblink) { echo '</a>'; } ?>
+      </div>
+    </div>
+  </div>
   <div class="home-slider-container">
     <div class="home-slider">
     <?php
