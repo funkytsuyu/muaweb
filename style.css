@@ -647,7 +647,9 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 }
 
 .home-slider-container .slick-prev,
-.home-slider-container .slick-next {
+.home-slider-container .slick-next,
+.home-mobile-slider-container .slick-prev,
+.home-mobile-slider-container .slick-next {
 	display:none!important;
 }
 
