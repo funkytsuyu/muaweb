@@ -25,6 +25,7 @@
       </div>
       <?php } ?>
     </div>
+      <div class="mobile-banner-dots"></div>
   </div>
   <div class="home-slider-container">
     <div class="home-slider">

@@ -35,7 +35,7 @@ jQuery(function($) {
 		autoplay: true,
 	  infinite: true,
 		draggable: false,
-		appendDots: '.banner-dots',
+		appendDots: '.mobile-banner-dots',
 		autoplaySpeed: 4000,
 		speed: 1000,
 	});
