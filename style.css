@@ -633,6 +633,10 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	display:none!important;
 }
 
+.home-mobile-slider-container {
+	display:none;
+}
+
 .banner-dots {
 	position: absolute;
 	bottom: 0;
@@ -1362,6 +1366,12 @@ input[type="submit"]:hover {
 	}
 	.home #container {
 		padding-top:50px;
+	}
+	.home-slider-container {
+		display:none;
+	}
+	.home-mobile-slider-container {
+		display:block;
 	}
 }
 
