@@ -10,7 +10,7 @@
       $mobbannerlinks = $mobbannerarrays["Link"];
       $mobbannerbackcolors = $mobbannerarrays["Background color"];
       $mobbannernum  = count($mobbannerimgs);
-      for($i = 0; $i < $bannernum; $i++) {
+      for($i = 0; $i < $mobbannernum; $i++) {
         $mobimg = $mobbannerimgs[$i];
         $moblink = $mobbannerlinks[$i];
         $mobback_color = $mobbannerbackcolors[$i];
