@@ -600,6 +600,13 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	background: #f4f4f6;
 }
 
+.home-mobile-slider-container {
+	position:relative;
+	width:100%;
+	margin:0 auto;
+	background: #f4f4f6;
+}
+
 .home-slider {
 	height:1000px;
 	left:0;
@@ -611,7 +618,18 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	float:none;
 }
 
-.home-slider .slick-slide {
+.home-mobile-slider {
+	left:0;
+	position:relative;
+  overflow: hidden;
+	padding-left:0;
+	padding-right:0;
+	margin:0;
+	float:none;
+}
+
+.home-slider .slick-slide,
+.home-mobile-slider .slick-slide {
 	height:auto;
 	text-align:center;
 }

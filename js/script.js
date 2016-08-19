@@ -29,6 +29,16 @@ jQuery(function($) {
 		speed: 1000,
 	});
 
+	$('.home-mobile-slider').slick({
+		dots: true,
+		centerMode: true,
+		autoplay: true,
+	  infinite: true,
+		draggable: false,
+		appendDots: '.banner-dots',
+		autoplaySpeed: 4000,
+		speed: 1000,
+	});
 
 	$('.project-gallery').slick({
 		dots: true,
