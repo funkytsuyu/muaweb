@@ -710,8 +710,9 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	left:0;
 	right:0;
 	padding:30px;
-	top:285px;
+	top:0;
 	height:285px;
+	opacity:0;
 	box-sizing:border-box;
 	background:rgba(160, 147, 190, 0.6);
 	-webkit-transition: 700ms;
@@ -721,7 +722,18 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 }
 
 .project.square:hover .overlay {
-	top:0;
+	opacity:1;
+}
+
+.project.square img {
+	-webkit-transition: 700ms;
+	-moz-transition: 700ms;
+	-o-transition: 700ms;
+	transition: 700ms;
+}
+
+.project.square:hover img {
+	transform: scale(1.1);
 }
 
 .projects h3 {
