@@ -749,6 +749,7 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	min-height: 3.2em;
 	padding:0;
 	background:transparent;
+	text-transform: lowercase;
 }
 
 .project {
