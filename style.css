@@ -406,9 +406,13 @@ nav {
 
 .menu-main-menu-left-container,
 .menu-main-menu-right-container {
-	width:calc(50% - 110px);
+	width:calc(50% - 107px);
 	height:90px;
 	float:left;
+}
+
+.menu-main-menu-right-container a {
+	float:right;
 }
 
 .menu a {
