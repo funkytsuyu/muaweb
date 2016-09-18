@@ -20,7 +20,7 @@ html {
 body {
 	font-family: 'Roboto', sans-serif;
 	height:100%;
-	color:#787482;
+	color:#222d2f;
 }
 
 #wrapper {
@@ -405,7 +405,7 @@ nav {
 	line-height:60px;
 	display:block;
 	font-weight:400;
-	color:#000;
+	color:#222d2f;
 	padding:0 1em;
 	text-transform: uppercase;
 	letter-spacing: 1px;
