@@ -9,9 +9,15 @@
 <header class="header">
 </header>
 <section class="entry-content">
-<?php the_content(); ?>
-<div class="entry-links"><?php wp_link_pages(); ?></div>
-</section>
+  <div class="flex-row">
+    <div class="flex-1">
+      <?php the_content(); ?>
+    </div>
+    <div class="flex-1">
+      <?php the_content(); ?>
+    </div>
+  </div>
+  </section>
 </article>
 </section>
 <?php if ( ! post_password_required() ) comments_template('', true); ?>
