@@ -417,7 +417,9 @@ nav {
 	transition:500ms;
 	width:60px;
 	position:absolute;
-	top:40px;
+	top: 50px;
+	left: 50%;
+	margin-left: -20px;
 }
 
 .menu a:hover:before {
