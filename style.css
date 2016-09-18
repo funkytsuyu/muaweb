@@ -727,6 +727,22 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 /////////// CATEGORIES ////////////
 -------------------------------- */
 
+.category-editorial .project.square .overlay {
+	background: rgba(176, 101, 100, 0.6);
+}
+
+.category-creative .project.square .overlay {
+	background: rgba(201, 162, 203, 0.6);
+}
+
+.category-beauty .project.square .overlay {
+	background: rgba(201, 162, 203, 0.6);
+}
+
+.category-casual .project.square .overlay {
+	background: rgba(201, 162, 203, 0.6);
+}
+
 #masonry-cat {
 	margin:0 -10px;
 }
