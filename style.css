@@ -49,7 +49,7 @@ body {
 }
 
 .category #container {
-	padding-top:75px;
+	padding-top:50px;
 }
 
 .page-template-contact #container {
@@ -408,6 +408,10 @@ nav {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	position:relative;
+}
+
+.menu a.current-menu-item:before {
+	background-color:#e9bdbd;
 }
 
 .menu a:before {
