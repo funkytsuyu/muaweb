@@ -368,12 +368,12 @@ h3 {
 -------------------------------- */
 
 nav {
-	height:60px;
+	height:90px;
 	background:#fff;
 	position: absolute;
 	z-index: 10000;
 	width: 100%;
-	bottom: -60px;
+	bottom: -90px;
 	-webkit-transition:  50ms;
   -moz-transition:  50ms;
   -o-transition: 50ms;
@@ -384,7 +384,7 @@ nav {
 	float: left;
 	position: absolute;
 	bottom: 0;
-	line-height: 60px;
+	line-height: 90px;
 	font-size: 1.8em;
 	font-weight: 300;
 	font-style: italic;
@@ -402,7 +402,7 @@ nav {
 .menu a {
 	font-family: 'Lato', sans-serif;
 	float:left;
-	line-height:60px;
+	line-height:90px;
 	display:block;
 	font-weight:400;
 	color:#222d2f;
@@ -423,7 +423,7 @@ nav {
 	transition:500ms;
 	width:40px;
 	position:absolute;
-	top: 45px;
+	top: 65px;
 	left: 50%;
 	margin-left: -20px;
 }
@@ -438,7 +438,7 @@ nav {
 }
 
 .social a {
-	line-height:60px;
+	line-height:90px;
 	width:20px;
 	font-size:1.3em;
 	float:left;
@@ -543,7 +543,7 @@ nav {
 -------------------------------- */
 
 .home #container {
-	padding-top:60px;
+	padding-top:90px;
 }
 
 .home nav {
@@ -889,7 +889,7 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 -------------------------------- */
 
 .single-post #container {
-	padding-top:60px;
+	padding-top:90px;
 }
 
 .single blockquote {
