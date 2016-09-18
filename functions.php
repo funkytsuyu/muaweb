@@ -10,7 +10,7 @@ if ( ! isset( $content_width ) ) $content_width = 640;
 register_nav_menus(
 array( 'main-menu-left' => __( 'Main Menu Left', 'oascore' )),
 array( 'main-menu-right' => __( 'Main Menu Right', 'oascore' )),
-'mobile-menu' => __( 'Mobile Menu', 'oascore' ))
+array( 'mobile-menu' => __( 'Mobile Menu', 'oascore' ))
 );
 }
 add_action('wp_enqueue_scripts', 'oascore_load_scripts');
