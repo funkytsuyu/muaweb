@@ -359,8 +359,13 @@ h3 {
 }
 
 #logo {
-	width: 187px;
+	width: 213px;
 	float: left;
+	height: 90px;
+}
+
+#logo img {
+	margin-top: -6px;
 }
 
 /* -------------------------------
