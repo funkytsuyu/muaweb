@@ -7,11 +7,11 @@ add_theme_support('automatic-feed-links');
 add_theme_support('post-thumbnails');
 global $content_width;
 if ( ! isset( $content_width ) ) $content_width = 640;
-register_nav_menus(
-array( 'main-menu-left' => __( 'Main Menu Left', 'oascore' )),
-array( 'main-menu-right' => __( 'Main Menu Right', 'oascore' )),
-array( 'mobile-menu' => __( 'Mobile Menu', 'oascore' ))
-);
+register_nav_menus(array(
+'main-menu-left' => __( 'Main Menu Left', 'oascore' ),
+'main-menu-right' => __( 'Main Menu Right', 'oascore' ),
+'mobile-menu' => __( 'Mobile Menu', 'oascore' )
+));
 }
 add_action('wp_enqueue_scripts', 'oascore_load_scripts');
 function oascore_load_scripts()
