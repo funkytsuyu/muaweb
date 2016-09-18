@@ -18,7 +18,7 @@
 			<nav id="menu" role="navigation">
 				<div class="wrap">
 					<a id="logo" href="<?php echo home_url(); ?>" class="home-link">
-					 <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png">
+					 <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo_purple.png">
 					</a>
 					<?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
 					<div class="mobile-menu">
