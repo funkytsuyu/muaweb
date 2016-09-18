@@ -413,8 +413,9 @@ nav {
 	color:#222d2f;
 	padding:0 1em;
 	text-transform: uppercase;
-	letter-spacing: 1px;
+	letter-spacing: 3px;
 	position:relative;
+	font-size:15px;
 }
 
 .menu a.current-menu-item:before {
