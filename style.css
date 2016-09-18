@@ -1087,6 +1087,8 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 .wedding-banner {
 	height: 450px;
   overflow: hidden;
+	background-size:cover;
+	background-position: bottom center;
 }
 
 .page-template-wedding-page .entry-content {
