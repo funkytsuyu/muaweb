@@ -367,7 +367,6 @@ h3 {
 
 nav {
 	height:60px;
-	border-bottom:1px solid #00A5B5;
 	background:#fff;
 	position: absolute;
 	z-index: 10000;
@@ -716,7 +715,7 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	height:285px;
 	opacity:0;
 	box-sizing:border-box;
-	background:rgba(160, 147, 190, 0.6);
+	background:rgba(201, 162, 203, 0.6);
 	-webkit-transition: 700ms;
 	-moz-transition: 700ms;
 	-o-transition: 700ms;
