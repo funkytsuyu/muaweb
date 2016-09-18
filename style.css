@@ -407,6 +407,8 @@ nav {
 .menu-main-menu-left-container,
 .menu-main-menu-right-container {
 	width:calc(50% - 110px);
+	height:90px;
+	float:left;
 }
 
 .menu a {
