@@ -18,7 +18,7 @@
 			<nav id="menu" role="navigation">
 				<div class="wrap">
 					<a id="logo" href="<?php echo home_url(); ?>" class="home-link">
-					 <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.svg">
+					 <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png">
 					</a>
 					<?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
 					<div class="mobile-menu">
@@ -39,18 +39,6 @@
 						<div class="snipit">
 							<?php wp_nav_menu( array( 'theme_location' => 'mobile-menu' ) ); ?>
 						</div>
-					</div>
-
-					<div class="social">
-						<a href="<?php echo get_option('AL_facebook'); ?>">
-							<i class="fa fa-facebook"></i>
-						</a>
-						<a href="<?php echo get_option('AL_instagram'); ?>">
-							<i class="fa fa-instagram"></i>
-						</a>
-						<a href="<?php echo get_option('AL_linkedin'); ?>">
-							<i class="fa fa-linkedin"></i>
-						</a>
 					</div>
 				</div>
 			</nav>
