@@ -18,7 +18,7 @@ html {
 }
 
 body {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	height:100%;
 	color:#787482;
 }
@@ -298,10 +298,11 @@ a:hover {
 -------------------------------- */
 
 h1 {
-
+	font-family: 'Lato', sans-serif;
 }
 
 h2 {
+	font-family: 'Lato', sans-serif;
 	font-size:1.3em;
 	line-height:2em;
 	border-bottom: 1px solid;
@@ -316,6 +317,7 @@ h2.no-top-margin {
 }
 
 h3 {
+	font-family: 'Lato', sans-serif;
 	font-size: 1.2em;
 	font-style: italic;
 	margin-bottom:1em;
@@ -397,23 +399,23 @@ nav {
 }
 
 .menu a {
+	font-family: 'Lato', sans-serif;
 	float:left;
-	line-height:60px;
+	line-height:58px;
 	display:block;
 	font-weight:200;
 	color:#000;
 	padding:0 1em;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	-webkit-transition: background-color 200ms;
-	-moz-transition: background-color 200ms;
-  -o-transition: background-color 200ms;
-  transition: background-color 200ms;
+	-webkit-transition: border 200ms;
+	-moz-transition: border 200ms;
+  -o-transition: border 200ms;
+  transition: border 200ms;
 }
 
 .menu a:hover {
-	background:#00A5B5;
-	color:#fff;
+	border-bottom:2px solid #e9bdbd;
 }
 
 .social {
