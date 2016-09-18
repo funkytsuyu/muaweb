@@ -260,7 +260,7 @@ clear:none;
 
 a {
 	text-decoration:none;
-	color:#A093BE;
+	color:#c9a2cb;
 	-webkit-transition: color 50ms;
 	-moz-transition: color 50ms;
 	-o-transition:color 50ms;
@@ -273,7 +273,7 @@ a:focus {
 }
 
 a:hover {
-	color:#726A86;
+	color:#7a5673;
 }
 
 #container a {
