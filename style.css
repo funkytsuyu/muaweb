@@ -400,21 +400,28 @@ nav {
 .menu a {
 	font-family: 'Lato', sans-serif;
 	float:left;
-	line-height:58px;
+	line-height:60px;
 	display:block;
 	font-weight:200;
 	color:#000;
 	padding:0 1em;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	-webkit-transition: border 200ms;
-	-moz-transition: border 200ms;
-  -o-transition: border 200ms;
-  transition: border 200ms;
+	position:relative;
 }
 
-.menu a:hover {
-	border-bottom:2px solid #e9bdbd;
+.menu a:before {
+	content:'';
+	height:2px;
+	background-color:#fff;
+	transition:500ms;
+	width:60px;
+	position:absolute;
+	top:40px;
+}
+
+.menu a:hover:before {
+	background-color:#e9bdbd;
 }
 
 .social {
