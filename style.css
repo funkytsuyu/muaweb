@@ -404,6 +404,11 @@ nav {
 	padding-left:0;
 }
 
+.menu-main-menu-left-container,
+.menu-main-menu-right-container {
+	width:calc(50% - 106px);
+}
+
 .menu a {
 	font-family: 'Lato', sans-serif;
 	float:left;
@@ -415,7 +420,7 @@ nav {
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	position:relative;
-	font-size:15px;
+	font-size:13px;
 }
 
 .menu a.current-menu-item:before {
