@@ -10,6 +10,7 @@ $general_notes = simple_fields_value('general_notes');
 ?>
 
 <?php get_header(); ?>
+<div class="wedding-banner" style="background-image:url(<?php the_post_thumbnail_url(); ?>);"></div>
 <section id="content" role="main" class="wrap">
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 <header class="header">

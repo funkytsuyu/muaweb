@@ -2,8 +2,7 @@
 
 <?php get_header(); ?>
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-<div class="wedding-banner" style="background-image:url(<?php the_post_thumbnail_url(); ?>);">
-</div>
+<div class="wedding-banner" style="background-image:url(<?php the_post_thumbnail_url(); ?>);"></div>
 <section id="content" role="main" class="wrap">
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 <header class="header">
