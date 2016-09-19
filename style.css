@@ -429,7 +429,7 @@ nav {
 	font-size:13px;
 }
 
-.menu a.current-menu-item:before {
+.menu .current-menu-item a:before {
 	background-color:#e9bdbd;
 }
 
