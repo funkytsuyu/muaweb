@@ -889,27 +889,25 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 }
 
 .package .title {
-	font-size: 1.5em;
-  line-height: 1.5em;
-  font-style: normal;
-  color: #b36b6b;
-  padding: 0.3em 0.3em 0.3em 0;
-  float: left;
-  display: block;
-  margin-right: 0.5em;
+	background: #fff;
+	font-size: 1.3em;
+	position: relative;
+	color: #b06564;
+	font-weight: 300;
+	overflow:hidden;
+	line-height:3em;
+	margin-bottom: 0.8em;
 }
 
 .package .price {
-	font-size:1.5em;
-	line-height:1.5em;
-	font-weight:bold;
-	font-style:normal;
-	color:#fff;
-	padding:0.3em;
-	float:left;
-	background:#00A5B5;
-	display:block;
-	margin-right:0.5em;
+	font-size: 1.5em;
+    line-height: 1.5em;
+    font-style: normal;
+    color: #b36b6b;
+    padding: 0.3em 0.3em 0.3em 0;
+    float: left;
+    display: block;
+    margin-right: 0.5em;
 }
 
 .category #content {
