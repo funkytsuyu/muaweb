@@ -34,8 +34,8 @@
         Regular Package
         </div>
         <ul>
-          <li>- The makeup trial, of a maximal duration of 2 hours. (For a more faithful result, the makeup should be tried with the wedding hairdo. Both trials should therefore be on the same day.);</li>
-          <li>- Makeup on wedding day.</li>
+          <li>The makeup trial, of a maximal duration of 2 hours. (For a more faithful result, the makeup should be tried with the wedding hairdo. Both trials should therefore be on the same day.);</li>
+          <li>Makeup on wedding day.</li>
         </ul>
         </div>
         <div class="package">
@@ -43,11 +43,11 @@
         Deluxe Package
         </div>
         <ul>
-          <li>- An online appointement with the makeup artist: MUA compiles bride’s needs, desires & ideas;</li>
-        <li>- Creation of an inspiration board on Pinterest, shared with the bride;</li>
-        <li>- The makeup trial, of a maximal duration of 3 hours. (For a more faithful result, the makeup should be tried with the wedding hairdo. Both trials should therefore be on the same day.);</li>
-        <li>- Makeup on wedding day.</li>
-        <li>- Also includes a lipsticks or lipgloss and false lashes.</li>
+          <li>An online appointement with the makeup artist: MUA compiles bride’s needs, desires & ideas;</li>
+          <li>Creation of an inspiration board on Pinterest, shared with the bride;</li>
+          <li>The makeup trial, of a maximal duration of 3 hours. (For a more faithful result, the makeup should be tried with the wedding hairdo. Both trials should therefore be on the same day.);</li>
+          <li>Makeup on wedding day.</li>
+          <li>Also includes a lipsticks or lipgloss and false lashes.</li>
       </ul>
       </div>
     </div>
