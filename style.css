@@ -438,15 +438,17 @@ nav {
 	height:2px;
 	background-color:#fff;
 	transition:500ms;
-	width:40px;
+	width:30px;
 	position:absolute;
 	top: 65px;
 	left: 50%;
-	margin-left: -20px;
+	margin-left: -15px;
 }
 
 .menu a:hover:before {
 	background-color:#e9bdbd;
+	margin-left: -20px;
+	width:40px;
 }
 
 .social {
