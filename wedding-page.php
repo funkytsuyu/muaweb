@@ -20,10 +20,11 @@
         <p>
         Many questions will be asked to fit the unique feel and theme of your wedding, such as:
         </p>
-        <p>+ During which season is your wedding?
-        + Does your wedding have a specific theme and/or color scheme?
-        + What color is your dress and jewelry(ies)?
-        </p>
+        <ul>
+          <li>+ During which season is your wedding?</li>
+          <li>+ Does your wedding have a specific theme and/or color scheme?</li>
+          <li>+ What color is your dress and jewelry(ies)?</li>
+      </ul>
     </div>
     <div class="flex-1">
       <div class="padding-left">
@@ -32,18 +33,22 @@
         <div class="title">
         Regular Package
         </div>
-        - The makeup trial, of a maximal duration of 2 hours. (For a more faithful result, the makeup should be tried with the wedding hairdo. Both trials should therefore be on the same day.);
-        - Makeup on wedding day.
+        <ul>
+          <li>- The makeup trial, of a maximal duration of 2 hours. (For a more faithful result, the makeup should be tried with the wedding hairdo. Both trials should therefore be on the same day.);</li>
+          <li>- Makeup on wedding day.</li>
+        </ul>
         </div>
         <div class="package">
         <div class="title">
         Deluxe Package
         </div>
-        - An online appointement with the makeup artist: MUA compiles bride’s needs, desires & ideas;
-        - Creation of an inspiration board on Pinterest, shared with the bride;
-        - The makeup trial, of a maximal duration of 3 hours. (For a more faithful result, the makeup should be tried with the wedding hairdo. Both trials should therefore be on the same day.);
-        - Makeup on wedding day.
-        - Also includes a lipsticks or lipgloss and false lashes.
+        <ul>
+          <li>- An online appointement with the makeup artist: MUA compiles bride’s needs, desires & ideas;</li>
+        <li>- Creation of an inspiration board on Pinterest, shared with the bride;</li>
+        <li>- The makeup trial, of a maximal duration of 3 hours. (For a more faithful result, the makeup should be tried with the wedding hairdo. Both trials should therefore be on the same day.);</li>
+        <li>- Makeup on wedding day.</li>
+        <li>- Also includes a lipsticks or lipgloss and false lashes.</li>
+      </ul>
       </div>
     </div>
   </div>
