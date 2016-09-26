@@ -1325,6 +1325,13 @@ input[type="submit"]:hover {
 ////////// RESPONSIVE /////////////
 -------------------------------- */
 
+@media screen and (min-width:2500px) {
+	.about-banner,
+	.wedding-banner {
+		height:600px;
+	}
+}
+
 @media screen and (max-width:1280px) {
 	.wrap {
 		padding:0 2em;
