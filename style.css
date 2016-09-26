@@ -1098,6 +1098,14 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 ////////// ABOUT PAGE ////////////
 -------------------------------- */
 
+.about-banner {
+	height: 450px;
+	margin-bottom:60px;
+  overflow: hidden;
+	background-size:cover;
+	background-position: top center;
+}
+
 .publications .slick-slide {
 	margin-left: 20px;
 }
