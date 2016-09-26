@@ -9,12 +9,10 @@ $contact_title = stripslashes(get_option('AL_text_contact'));
 ?>
 
 <?php get_header(); ?>
+<?php if(has_post_thumbnail()) { ?>
+	<div class="wedding-banner" style="background-image:url(<?php the_post_thumbnail_url(); ?>);"></div>
+<?php } ?>
 <section id="content" role="main">
-	<?php if($map) { ?>
-		<div class="contact-map">
-				<img src="<?php echo $map_url; ?>">
-		</div>
-	<?php } ?>
 	<div class="wrap">
 		<div class="half">
 			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
