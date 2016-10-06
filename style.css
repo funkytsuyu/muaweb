@@ -833,7 +833,7 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 .project-credits h2 {
 	text-align:center;
 	border:0;
-	font-size:26px;
+	font-size:20px;
 }
 
 .project-credits a {
@@ -926,6 +926,7 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 
 .single blockquote {
 	text-align:center;
+	font-size:1em;
 }
 
 .single .entry-content {
