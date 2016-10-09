@@ -1488,6 +1488,12 @@ input[type="submit"]:hover {
 	.wedding-banner {
 		height:200px;
 	}
+	.page-template-wedding-page #content .flex-row {
+		display:block;
+	}
+	.page-template-wedding-page #content .padding-left {
+		padding:0;
+	}
 }
 
 @media screen and (max-width:480px) {
