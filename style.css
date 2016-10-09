@@ -1335,6 +1335,9 @@ input[type="submit"]:hover {
 	.wrap {
 		padding:0 2em;
 	}
+	.single #content.wrap {
+		padding:0;
+	}
 	.pub-arrows .slick-prev {
 		left:-38px;
 	}
