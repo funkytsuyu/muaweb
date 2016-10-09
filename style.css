@@ -1355,11 +1355,40 @@ input[type="submit"]:hover {
 		display:block;
 		height:50px;
 	}
-
 	#menu-main-menu {
 		display:none;
 	}
-
+	#logo {
+		position:absolute;
+		left:50%;
+		margin-left:-106px;
+	}
+	.button-wrap {
+		height:90px;
+		line-height: 90px;
+	}
+	.mobile-menu-button-icon,
+	.mobile-menu-button-icon-open {
+		top:33px;
+	}
+	nav {
+		bottom: -50px;
+		height: 50px;
+		border:0;
+	}
+	.menu a {
+		font-size: 0.8em;
+		display: block;
+		float: none;
+		padding: 0 30px;
+		line-height: 50px;
+		background:#fff;
+		text-align:center;
+	}
+	.menu {
+		padding-left:0;
+		margin-left:0;
+	}
 }
 
 @media screen and (max-width:1024px) {
@@ -1433,24 +1462,6 @@ input[type="submit"]:hover {
 		width: 100%;
 		float: none;
 		text-align:center;
-	}
-	nav {
-		bottom: -50px;
-    height: 50px;
-		border:0;
-	}
-	.menu a {
-		font-size: 0.8em;
-		display: block;
-		float: none;
-		padding: 0 30px;
-		line-height: 50px;
-		background:#fff;
-		text-align:center;
-	}
-	.menu {
-		padding-left:0;
-		margin-left:0;
 	}
 	#logo {
 		display:block;
