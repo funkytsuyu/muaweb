@@ -1408,6 +1408,9 @@ input[type="submit"]:hover {
 	.menu a:before {
 		display:none;
 	}
+	.home #container {
+		padding-top:80px;
+	}
 }
 
 @media screen and (max-width:1024px) {
