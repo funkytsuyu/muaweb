@@ -475,6 +475,11 @@ nav {
 .snipit {
 	height:0;
 	overflow:hidden;
+	pointer-events:none;
+}
+
+.menu {
+	pointer-events:auto;
 }
 
 #menu-mobile-menu {
