@@ -1345,9 +1345,7 @@ input[type="submit"]:hover {
 }
 
 @media screen and (max-width:1500px) {
-	.home-slider {
-		height: 720px;
-	}
+
 }
 
 @media screen and (max-width:1024px) {
@@ -1408,6 +1406,10 @@ input[type="submit"]:hover {
 		width: 100%;
 		margin-right:0;
 		margin-left:0;
+	}
+	.menu-main-menu-left-container,
+	.menu-main-menu-right-container {
+		display:none;
 	}
 	.half .half {
 		width:48.40441612652886%;
