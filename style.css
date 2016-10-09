@@ -490,7 +490,6 @@ nav {
 .mobile-menu {
 	position:relative;
 	display:none;
-	border-bottom:1px solid #009bae;
 }
 
 #menu-mobile-menu a {
@@ -1486,12 +1485,15 @@ input[type="submit"]:hover {
 	.home-mobile-slider-container {
 		display:block;
 	}
+	.wedding-banner {
+		height:200px;
+	}
 }
 
 @media screen and (max-width:480px) {
 	#container {
 		padding-bottom:20px;
-		padding-top: 80px;
+		padding-top: 50px;
 	}
 	#wdi_feed_0 .wdi_load_more {
 		display:none;

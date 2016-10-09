@@ -32,6 +32,7 @@ jQuery(function($) {
 	$('.home-mobile-slider').slick({
 		dots: true,
 		centerMode: true,
+		slidesToShow: 1,
 		autoplay: true,
 	  infinite: true,
 		draggable: false,
