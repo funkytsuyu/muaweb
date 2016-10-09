@@ -1401,6 +1401,9 @@ input[type="submit"]:hover {
 	.project.square:hover .overlay {
 		top: 285px;
 	}
+	.project-infos {
+		padding:0 30px;
+	}
 }
 
 @media screen and (max-width:780px) {
