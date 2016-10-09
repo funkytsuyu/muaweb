@@ -1107,7 +1107,7 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	margin-bottom:60px;
   overflow: hidden;
 	background-size:cover;
-	background-position: top center;
+	background-position: top right;
 }
 
 .publications .slick-slide {
@@ -1530,7 +1530,6 @@ input[type="submit"]:hover {
 	}
 	.about-banner {
 		height:300px;
-		background-position: top right;
 	}
 	.page-template-wedding-page #content .flex-row {
 		display:block;
