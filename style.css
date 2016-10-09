@@ -1375,7 +1375,7 @@ input[type="submit"]:hover {
 	}
 	.mobile-menu-button-icon,
 	.mobile-menu-button-icon-open {
-		top:33px;
+		top:30px;
 	}
 	nav {
 		bottom: -50px;
@@ -1399,7 +1399,11 @@ input[type="submit"]:hover {
 		padding:0;
 	}
 	.snipit {
-		padding-top:90px;
+		padding-top:80px;
+	}
+	.snipit .menu {
+		padding-top:30px;
+		background:#fff;
 	}
 	.menu a:before {
 		display:none;
