@@ -1395,6 +1395,9 @@ input[type="submit"]:hover {
 	.snipit {
 		padding-top:90px;
 	}
+	.menu a:before {
+		display:none;
+	}
 }
 
 @media screen and (max-width:1024px) {
