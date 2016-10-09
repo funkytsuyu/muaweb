@@ -1525,7 +1525,8 @@ input[type="submit"]:hover {
 	.home-mobile-slider-container {
 		display:block;
 	}
-	.wedding-banner {
+	.wedding-banner,
+	.about-banner {
 		height:200px;
 	}
 	.page-template-wedding-page #content .flex-row {
