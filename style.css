@@ -1389,6 +1389,12 @@ input[type="submit"]:hover {
 		padding-left:0;
 		margin-left:0;
 	}
+	#header .wrap {
+		padding:0;
+	}
+	.snipit {
+		padding-top:90px;
+	}
 }
 
 @media screen and (max-width:1024px) {
@@ -1474,13 +1480,12 @@ input[type="submit"]:hover {
 	#menu .wrap {
 		padding:0;
 	}
-	.snipit {
-		padding-top:50px;
-	}
 	#menu .social {
 		display:none;
 	}
-
+	.snipit {
+		padding-top:50px;
+	}
 	#container {
 		padding-top:50px;
 	}
