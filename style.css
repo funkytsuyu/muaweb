@@ -1502,6 +1502,10 @@ input[type="submit"]:hover {
 	.snipit {
 		padding-top:50px;
 	}
+	.mobile-menu-button-icon,
+	.mobile-menu-button-icon-open {
+		top:15px;
+	}
 	#container {
 		padding-top:50px;
 	}
