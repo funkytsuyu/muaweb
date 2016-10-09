@@ -1488,7 +1488,6 @@ input[type="submit"]:hover {
 		position:absolute;
 		left:50%;
 		margin-left:-60px;
-		z-index:100;
 	}
 	#menu .wrap {
 		padding:0;
@@ -1498,6 +1497,9 @@ input[type="submit"]:hover {
 	}
 	.snipit {
 		padding-top:50px;
+	}
+	.snipit .menu {
+		padding-top:15px;
 	}
 	.mobile-menu-button-icon,
 	.mobile-menu-button-icon-open {
