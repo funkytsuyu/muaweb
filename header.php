@@ -20,7 +20,20 @@
 				<div class="wrap">
 					<?php wp_nav_menu( array( 'theme_location' => 'main-menu-left' ) ); ?>
 					<a id="logo" href="<?php echo home_url(); ?>" class="home-link">
-					 <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo_purple.png">
+						<?php if(is_category('editorial')) {
+							echo '<img src="' . get_stylesheet_directory_uri() . '/img/logos-web-big-orange.png">';
+						} elseif(is_category('creative')) {
+							echo '<img src="' . get_stylesheet_directory_uri() . '/img/logos-web-big-dark-blue.png">';
+						} elseif(is_category('beauty')) {
+							echo '<img src="' . get_stylesheet_directory_uri() . '/img/logos-web-big-purple.png">';
+						} elseif(is_category('casual')) {
+							echo '<img src="' . get_stylesheet_directory_uri() . '/img/logos-web-big-blue.png">';
+						} else {
+							echo '<img src="' . get_stylesheet_directory_uri() . '/img/logos-web-big-peach.png">';
+						} ?>
+					</a>
+					<a id="mobile-logo" href="<?php echo home_url(); ?>" class="home-link">
+					 <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logos-web-small-peach.png">
 					</a>
 					<?php wp_nav_menu( array( 'theme_location' => 'main-menu-right' ) ); ?>
 					<div class="mobile-menu">
