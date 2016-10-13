@@ -1552,6 +1552,9 @@ input[type="submit"]:hover {
 	.page-template-wedding-page #content .padding-left {
 		padding:0;
 	}
+	.publications .slick-slide {
+		margin-right:20px;
+	}
 }
 
 @media screen and (max-width:480px) {
