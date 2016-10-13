@@ -1490,13 +1490,6 @@ input[type="submit"]:hover {
 		float: none;
 		text-align:center;
 	}
-	#logo {
-		display:block;
-		width:120px;
-		position:absolute;
-		left:50%;
-		margin-left:-60px;
-	}
 	#menu .wrap {
 		padding:0;
 	}
