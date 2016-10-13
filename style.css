@@ -1439,6 +1439,9 @@ input[type="submit"]:hover {
 		padding: 0 0.7em;
 		font-size:0.8em;
 	}
+	#footer .social {
+		display:block;
+	}
 }
 
 @media screen and (max-width:980px) {
@@ -1646,7 +1649,7 @@ input[type="submit"]:hover {
 	}
 
 	#footer .social a {
-		width:50px;
+		width:36px;
 	}
 
 	#ribbon {
