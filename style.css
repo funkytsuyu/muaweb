@@ -359,7 +359,7 @@ h3 {
 }
 
 #logo {
-	width: 213px;
+	width: 200px;
 	float: left;
 	height: 90px;
 }
@@ -369,7 +369,7 @@ h3 {
 }
 
 #logo img {
-	margin-top: -30px;
+	margin-top: -20px;
 }
 
 /* -------------------------------
@@ -1374,13 +1374,16 @@ input[type="submit"]:hover {
 		margin-left:-118px;
 		z-index:150000;
 	}
+	#logo img {
+		margin-top:-40px;
+	}
 	.button-wrap {
 		height:90px;
 		line-height: 90px;
 	}
 	.mobile-menu-button-icon,
 	.mobile-menu-button-icon-open {
-		top:30px;
+		top:17px;
 	}
 	nav {
 		bottom: -50px;
