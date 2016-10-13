@@ -135,7 +135,7 @@ jQuery(function($) {
 
 	$('button.mobile-menu-button').funcToggle('click', function() {
 		$('.snipit').animate({
-			height:'354px'
+			height:'365px'
 		}, 200);
 		$('.mobile-menu-button-icon-open').animate({opacity: 1}, 500);
 	},

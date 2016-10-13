@@ -1511,7 +1511,7 @@ input[type="submit"]:hover {
 		padding-top:50px;
 	}
 	.snipit .menu {
-		padding-top:15px;
+		padding-top:0;
 	}
 	.mobile-menu-button-icon,
 	.mobile-menu-button-icon-open {
