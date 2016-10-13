@@ -3,7 +3,7 @@
 <head <?php do_action( 'add_head_attributes' ); ?>>
 	<meta charset="<?php bloginfo('charset'); ?>" />
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-	<meta name="theme-color" content="#e0d7f7">
+	<meta name="theme-color" content="#e9bdbd">
 	<title><?php wp_title(' | ', true, 'right'); ?></title>
 	<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico"/>
 	<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>" />
