@@ -848,6 +848,19 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	text-align: center;
 	border: 0;
 	margin-bottom:0;
+	position:relative;
+}
+
+.project-title:after {
+	content: '';
+  height: 2px;
+  background-color: #fff;
+  transition: 500ms;
+  width: 20px;
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  margin-left: -10px;
 }
 
 .project-year {
