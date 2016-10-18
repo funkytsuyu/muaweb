@@ -854,20 +854,21 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 .project-title:after {
 	content: '';
   height: 2px;
-  background-color: #fff;
+  background-color: #e9bdbd;
   transition: 500ms;
-  width: 20px;
+  width: 40px;
   position: absolute;
   top: 40px;
   left: 50%;
-  margin-left: -10px;
+  margin-left: -20px;
 }
 
 .project-year {
 	font-size: 11px;
-	letter-spacing: 3px;
-	color: #cacaca;
-	text-align: center;
+letter-spacing: 3px;
+color: #cacaca;
+text-align: center;
+margin: 8px 0 40px 0;
 }
 
 .project-credits a {
