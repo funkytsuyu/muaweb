@@ -847,12 +847,14 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	font-size: 20px;
 	text-align: center;
 	border: 0;
+	margin-bottom:0;
 }
 
 .project-year {
 	font-size: 11px;
 	letter-spacing: 3px;
 	color: #cacaca;
+	text-align: center;
 }
 
 .project-credits a {
