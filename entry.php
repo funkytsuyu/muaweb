@@ -24,7 +24,7 @@
 	<section class="entry-content">
 	<div class="project-infos">
 		<?php if(!empty( $project_title )) {
-		echo '<h2>';
+		echo '<h2 class="project-title">';
 			echo $project_title;};
 		echo '</h2>';
 		?>
