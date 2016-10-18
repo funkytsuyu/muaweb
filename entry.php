@@ -10,6 +10,8 @@
 	$content_raw = get_the_content();
 	$pattern = '/<div(.*)<\/div>/iU';
 	$post_images = preg_grep($pattern, $content_raw);
+	$project_title = simple_fields_value('title');
+	$project_year = simple_fields_value('year');
 	?>
 	<div class="full gallery-container">
 		<div class="project-gallery">
@@ -21,6 +23,16 @@
 	</div>
 	<section class="entry-content">
 	<div class="project-infos">
+		<?php if(!empty( $project_title )) {
+		echo '<h2>';
+			echo $project_title;};
+		echo '</h2>';
+		?>
+		<?php if(!empty( $project_year )) {
+		echo '<div class="project-year">';
+			echo $project_year;};
+		echo '</div>';
+		?>
 		<?php if(!empty( $meta_project_desc )) {
 		echo '<blockquote>';
 			echo $meta_project_desc;};
