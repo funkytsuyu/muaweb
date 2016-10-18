@@ -25,19 +25,19 @@
 	<div class="project-infos">
 		<?php if(!empty( $project_title )) {
 		echo '<h2 class="project-title">';
-			echo $project_title;};
+			echo $project_title;
 		echo '</h2>';
-		?>
+		}?>
 		<?php if(!empty( $project_year )) {
 		echo '<div class="project-year">';
-			echo $project_year;};
+			echo $project_year;
 		echo '</div>';
-		?>
+		}?>
 		<?php if(!empty( $meta_project_desc )) {
 		echo '<blockquote>';
-			echo $meta_project_desc;};
+			echo $meta_project_desc;
 		echo '</blockquote>';
-		?>
+		}?>
 			<?php
 			 if(!empty( $meta_projet_credits )) {
 				echo '<span class="project-credits">';
