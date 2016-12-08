@@ -1622,6 +1622,9 @@ input[type="submit"]:hover {
 		color:#000;
 		font-family: 'Lato', sans-serif;
 	}
+	.button-wrap {
+		height:50px;
+	}
 	#wdi_feed_0 .wdi_load_more {
 		display:none;
 	}
