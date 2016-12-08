@@ -1615,6 +1615,12 @@ input[type="submit"]:hover {
 		text-transform:uppercase;
 		letter-spacing:2px;
 		font-size:16px;
+		line-height: 50px;
+		position: absolute;
+		left: 70px;
+		right: 70px;
+		color:#000;
+		font-family: 'Lato', sans-serif;
 	}
 	#wdi_feed_0 .wdi_load_more {
 		display:none;
