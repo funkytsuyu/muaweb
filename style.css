@@ -1490,7 +1490,9 @@ input[type="submit"]:hover {
 		width:48.40441612652886%;
 		margin-right:1.595635818123074%;
 	}
-
+	#cell-logo {
+		display:none;
+	}
 	.half .half {
 		width:100%;
 		margin-left:0;
@@ -1541,12 +1543,40 @@ input[type="submit"]:hover {
 		display:none;
 	}
 	#mobile-logo {
-		display:block;
+		display:none;
 		position:absolute;
 		left:50%;
 		margin-left:-118px;
 		z-index:150000;
 		width:250px;
+	}
+	#cell-logo {
+		display:block;
+		text-align:center;
+		text-transform:uppercase;
+		letter-spacing:2px;
+		font-size:16px;
+		line-height: 50px;
+		position: absolute;
+		left: 70px;
+		right: 70px;
+		color:#000;
+		font-family: 'Lato', sans-serif;
+		z-index:5000;
+	}
+	.button-wrap button {
+		top:0;
+		margin-top:0;
+	}
+	.button-wrap {
+		height:50px;
+		line-height:40px;
+		top:0;
+	}
+	.mobile-menu {
+		position:absolute;
+		top:0;
+		width:100%;
 	}
 	#menu .wrap {
 		padding:0;
@@ -1605,37 +1635,6 @@ input[type="submit"]:hover {
 	#container {
 		padding-bottom:20px;
 		padding-top: 50px;
-	}
-	#mobile-logo {
-		display:none;
-	}
-	#cell-logo {
-		display:block;
-		text-align:center;
-		text-transform:uppercase;
-		letter-spacing:2px;
-		font-size:16px;
-		line-height: 50px;
-		position: absolute;
-		left: 70px;
-		right: 70px;
-		color:#000;
-		font-family: 'Lato', sans-serif;
-		z-index:5000;
-	}
-	.button-wrap button {
-		top:0;
-		margin-top:0;
-	}
-	.button-wrap {
-		height:50px;
-		line-height:40px;
-		top:0;
-	}
-	.mobile-menu {
-		position:absolute;
-		top:0;
-		width:100%;
 	}
 	.home-mobile-slider-container {
 		background:#fff;
