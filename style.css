@@ -1629,6 +1629,7 @@ input[type="submit"]:hover {
 	}
 	.button-wrap {
 		height:50px;
+		line-height:50px;
 		top:0;
 	}
 	.mobile-menu {
