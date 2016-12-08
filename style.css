@@ -1629,6 +1629,7 @@ input[type="submit"]:hover {
 	.mobile-menu {
 		position:absolute;
 		top:0;
+		width:100%;
 	}
 	.home-mobile-slider-container {
 		background:#fff;
