@@ -1624,6 +1624,11 @@ input[type="submit"]:hover {
 	}
 	.button-wrap {
 		height:50px;
+		top:0;
+	}
+	#mobile-menu {
+		position:absolute;
+		top:0;
 	}
 	#wdi_feed_0 .wdi_load_more {
 		display:none;
