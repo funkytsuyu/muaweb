@@ -1626,7 +1626,7 @@ input[type="submit"]:hover {
 		height:50px;
 		top:0;
 	}
-	#mobile-menu {
+	.mobile-menu {
 		position:absolute;
 		top:0;
 	}
