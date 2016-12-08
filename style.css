@@ -1623,6 +1623,10 @@ input[type="submit"]:hover {
 		font-family: 'Lato', sans-serif;
 		z-index:5000;
 	}
+	.button-wrap button {
+		top:0;
+		margin-top:0;
+	}
 	.button-wrap {
 		height:50px;
 		top:0;
