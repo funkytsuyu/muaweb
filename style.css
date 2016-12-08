@@ -1630,6 +1630,12 @@ input[type="submit"]:hover {
 		position:absolute;
 		top:0;
 	}
+	.home-mobile-slider-container {
+		background:#fff;
+	}
+	.slick-slide {
+		width:480px;
+	}
 	#wdi_feed_0 .wdi_load_more {
 		display:none;
 	}
