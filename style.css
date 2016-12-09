@@ -1379,6 +1379,7 @@ input[type="submit"]:hover {
 	.wedding-banner {
 		height:600px;
 	}
+	#cell-logo {display:none;}
 }
 
 @media screen and (max-width:1280px) {
@@ -1394,6 +1395,7 @@ input[type="submit"]:hover {
 	.pub-arrows .slick-next {
 		right:-38px;
 	}
+	#cell-logo {display:none;}
 }
 
 @media screen and (max-width:1150px) {
@@ -1415,6 +1417,7 @@ input[type="submit"]:hover {
 		margin-left:-100px;
 		z-index:150000;
 	}
+	#cell-logo {display:none;}
 	#logo img {
 		margin-top:-40px;
 	}
@@ -1463,7 +1466,7 @@ input[type="submit"]:hover {
 }
 
 @media screen and (max-width:1024px) {
-
+	#cell-logo {display:none;}
 	.banner-img img {
 		margin-top:0;
 		width:160%;
