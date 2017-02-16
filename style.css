@@ -827,7 +827,7 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 }
 
 .project.square {
-	width:calc(33.33333% - 20px);
+	width:calc(25% - 20px);
 	height:auto;
 	overflow:hidden;
 	margin: 10px;
@@ -1577,7 +1577,7 @@ input[type="submit"]:hover {
 		max-width:200%;
 	}
 	.project.square {
-		width:calc(50% - 20px);
+		width:calc(33.333333% - 20px);
 		height:auto;
 	}
 	.project.square .overlay {
