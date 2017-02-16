@@ -633,15 +633,6 @@ nav {
 	display:block;
 }
 
-.mobile-menu-button, .mobile-menu-button .fa {
-	width: 50px;
-	height: 50px;
-	text-align: center;
-	padding: 0;
-	margin: 0;
-	line-height: 50px;
-}
-
 .menu-item-language {
 	display:none;
 }
