@@ -523,8 +523,6 @@ nav {
 .button-wrap button {
 	font-size:1.8em;
 	border:0;
-	height:50px;
-	width:50px;
 	background: transparent;
 	color:#e9bdbd;
 	margin-left: 20px;
@@ -1639,7 +1637,7 @@ input[type="submit"]:hover {
 		z-index:5000;
 	}
 	.button-wrap button {
-		top:0;
+		top:7px;
 		margin-top:0;
 	}
 	.button-wrap {
