@@ -814,7 +814,7 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 }
 
 .banner-dots .slick-dots li button:hover,
- .mobile-banner-dots .slick-dots li button:hover {
+.mobile-banner-dots .slick-dots li button:hover {
 	opacity:1;
 	background:#fff;
 	color:#fff;
@@ -823,7 +823,8 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	width:8px;
 }
 
-.banner-dots .slick-dots .slick-active button {
+.banner-dots .slick-dots .slick-active button,
+.mobile-banner-dots .slick-dots .slick-active button {
     background: #fff;
     color: #fff;
 		opacity:1;
