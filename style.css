@@ -833,13 +833,18 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	margin: 10px;
 }
 
+.project-square a {
+	font-size:0;
+	line-height:0;
+}
+
 .project.square .overlay {
 	position:absolute;
 	left:0;
 	right:0;
 	padding:30px;
 	top:0;
-	height:285px;
+	height: 330px;
 	opacity:0;
 	box-sizing:border-box;
 	background:rgba(201, 162, 203, 0.6);
@@ -866,7 +871,7 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 
 .projects h3 {
 	font-weight:300!important;
-	font-size: 1.4em;
+	font-size: 1.4rem;
 	font-weight: 300;
 	font-style: italic;
 	display: inline-block;
