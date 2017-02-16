@@ -1753,7 +1753,7 @@ input[type="submit"]:hover {
 		width:480px;
 	}
 	.button-wrap button {
-		top:3px;
+		top:0;
 	}
 	#wdi_feed_0 .wdi_load_more {
 		display:none;
