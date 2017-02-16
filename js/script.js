@@ -134,16 +134,22 @@ jQuery(function($) {
 	}
 
 	$('button.mobile-menu-button').funcToggle('click', function() {
-		$('.snipit').animate({
-			height:'365px'
-		}, 200);
-		$('.mobile-menu-button-icon-open').animate({opacity: 1}, 500);
+		$if($('html').width() <= '780') {
+			$('.snipit').animate({
+				height:'354px'
+			}, 200);
+		} else {
+			$('.snipit').animate({
+				height:'380px'
+			}, 200);
+		}
+		$('.mobile-menu-button').toggleClass("open");
 	},
 	function() {
 		$('.snipit').animate({
 			height:'0px'
 		}, 200);
-		$('.mobile-menu-button-icon-open').animate({opacity: 0}, 500);
+		$('.mobile-menu-button').toggleClass("open");
 	});
 
 });
