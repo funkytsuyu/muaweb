@@ -35,7 +35,7 @@
 					<a id="mobile-logo" href="<?php echo home_url(); ?>" class="home-link">
 					 <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logos-web-small-peach.png">
 					</a>
-					<a id="cell-logo" href="<?php echo home_url(); ?>">Audrey Lavigne</a>
+					<a id="cell-logo" href="<?php echo home_url(); ?>">Audrey Lavigne MUA</a>
 					<?php wp_nav_menu( array( 'theme_location' => 'main-menu-right' ) ); ?>
 					<div class="mobile-menu">
 						<div class="button-wrap">
