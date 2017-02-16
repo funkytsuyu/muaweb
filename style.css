@@ -827,8 +827,8 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 }
 
 .project.square {
-	width:285px;
-	height:285px;
+	width:calc(33.33333% - 20px);
+	height:auto;
 	overflow:hidden;
 	margin: 10px;
 }
@@ -1570,16 +1570,15 @@ input[type="submit"]:hover {
 		margin-left:0;
 		margin-right:0;
 	}
-
-	.home #ribbon {
-		top:150px;
-	}
-
 	.banner-img img {
 		margin-top:0;
 		width:200%;
 		margin-left:-50%;
 		max-width:200%;
+	}
+	.project.square {
+		width:calc(50% - 20px);
+		height:auto;
 	}
 	.project.square .overlay {
 		display:none;
@@ -1727,10 +1726,6 @@ input[type="submit"]:hover {
 		padding-left:0;
 		margin-top:20px;
 	}
-	.project.square {
-		width:calc(50% - 20px);
-		height:auto;
-	}
 	.gallery-arrows {
 		display:none;
 	}
@@ -1770,14 +1765,6 @@ input[type="submit"]:hover {
 	.collab {
 		text-align:center;
 	}
-	#ribbon h1 span {
-		text-align:right;
-	}
-
-	#ribbon h1 {
-		display:block;
-		height: 2.5em;
-	}
 
 	#footer {
 		height: auto;
@@ -1801,24 +1788,12 @@ input[type="submit"]:hover {
 		width:36px;
 	}
 
-	#ribbon {
-		top:40px;
-	}
-
 	.banner-img img {
 		max-width:320%;
 		width:320%;
 		position:relative;
 		left:-75%;
 		margin-top:0;
-	}
-
-	.home #ribbon {
-		top: 80px;
-	}
-
-	#ribbon .wrap {
-		padding:0;
 	}
 
 	.package .title {
