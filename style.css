@@ -1752,6 +1752,9 @@ input[type="submit"]:hover {
 	.slick-slide {
 		width:480px;
 	}
+	.button-wrap button {
+		top:3px;
+	}
 	#wdi_feed_0 .wdi_load_more {
 		display:none;
 	}
