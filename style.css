@@ -831,6 +831,8 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	height:auto;
 	overflow:hidden;
 	margin: 10px;
+	line-height:0;
+	font-size:0;
 }
 
 #container .project.square a {
