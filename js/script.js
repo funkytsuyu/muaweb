@@ -35,7 +35,7 @@ jQuery(function($) {
 		slidesToShow: 1,
 		autoplay: true,
 	  infinite: true,
-		draggable: false,
+		draggable: true,
 		appendDots: '.mobile-banner-dots',
 		autoplaySpeed: 4000,
 		speed: 1000,
