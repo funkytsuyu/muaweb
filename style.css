@@ -657,6 +657,10 @@ nav {
 	color:#888888;
 }
 
+.wdi_media_info {
+	display:none!important;
+}
+
 #wdi_feed_0 .wdi_feed_item {
 	line-height:0!important;
 }
