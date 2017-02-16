@@ -792,13 +792,19 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	display:none;
 }
 
+.mobile-banner-dots {
+	margin-top: -63px;
+	position: relative;
+}
+
 .banner-dots {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
 }
 
-.banner-dots .slick-dots li button {
+.banner-dots .slick-dots li button,
+.mobile-banner-dots .slick-dots li button {
 	background:#fff;
 	color:#fff;
 	opacity:0.6;
@@ -807,7 +813,8 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	width:8px;
 }
 
-.banner-dots .slick-dots li button:hover {
+.banner-dots .slick-dots li button:hover,
+ .mobile-banner-dots .slick-dots li button:hover {
 	opacity:1;
 	background:#fff;
 	color:#fff;
