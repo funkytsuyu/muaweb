@@ -134,7 +134,7 @@ jQuery(function($) {
 	}
 
 	$('button.mobile-menu-button').funcToggle('click', function() {
-		$if($('html').width() <= '780') {
+		if($('html').width() <= '780') {
 			$('.snipit').animate({
 				height:'354px'
 			}, 200);
