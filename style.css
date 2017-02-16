@@ -874,6 +874,7 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 .projects h3 {
 	font-weight:300!important;
 	font-size: 1.4rem;
+	line-height:1.2em;
 	font-weight: 300;
 	font-style: italic;
 	display: inline-block;
