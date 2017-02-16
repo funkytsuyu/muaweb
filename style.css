@@ -1643,6 +1643,10 @@ input[type="submit"]:hover {
 		width:48.40441612652886%;
 		margin-right:1.595635818123074%;
 	}
+	.project.square {
+		width:calc(50% - 20px);
+		height:auto;
+	}
 	#branding {
 		position:static;
 		width: 100%;
