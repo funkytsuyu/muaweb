@@ -535,7 +535,7 @@ nav {
 
 .mobile-menu-button {
 	width: 30px;
-	height: 20px;
+	height: 23px;
 	position: relative;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
@@ -1675,8 +1675,7 @@ input[type="submit"]:hover {
 		z-index:5000;
 	}
 	.button-wrap button {
-		top:7px;
-		margin-top:0;
+		margin-top:9px;
 	}
 	.button-wrap {
 		height:50px;
@@ -1699,10 +1698,6 @@ input[type="submit"]:hover {
 	}
 	.snipit .menu {
 		padding-top:0;
-	}
-	.mobile-menu-button-icon,
-	.mobile-menu-button-icon-open {
-		top:15px;
 	}
 	#container {
 		padding-top:50px;
