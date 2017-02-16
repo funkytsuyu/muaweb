@@ -566,6 +566,22 @@ nav {
   transition: .25s ease-in-out;
 }
 
+.category-editorial .mobile-menu-button span {
+	background: rgb(176, 101, 100);
+}
+
+.category-creative .mobile-menu-button span {
+	background: rgb(34, 45, 47);
+}
+
+.category-beauty .mobile-menu-button span {
+	background: rgb(201, 162, 203);
+}
+
+.category-casual .mobile-menu-button span{
+	background: rgb(144, 189, 201);
+}
+
 .mobile-menu-button span:nth-child(1) {
   top: 0px;
   -webkit-transform-origin: left center;
