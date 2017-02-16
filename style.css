@@ -833,7 +833,7 @@ body #wdi_feed_0 .wdi_load_more_wrap {
 	margin: 10px;
 }
 
-.project-square a {
+#container .project.square a {
 	font-size:0;
 	line-height:0;
 }
